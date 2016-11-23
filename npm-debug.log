@@ -1,0 +1,2987 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'http-server' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData http-server
+8 silly fetchNamedPackageData http-server
+9 silly mapToRegistry name http-server
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'http-server',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'http-server',
+12 silly mapToRegistry   name: 'http-server',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/http-server
+14 verbose request uri https://registry.npmjs.org/http-server
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:42:31 AM
+17 verbose request id ab90a9fce5c021b8
+18 verbose etag W/"582e9159-ea56"
+19 verbose lastModified Fri, 18 Nov 2016 05:27:53 GMT
+20 http request GET https://registry.npmjs.org/http-server
+21 http 200 https://registry.npmjs.org/http-server
+22 verbose headers { server: 'nginx/1.10.1',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'last-modified': 'Tue, 22 Nov 2016 05:13:16 GMT',
+22 verbose headers   etag: 'W/"5833d3ec-ea62"',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'content-length': '7671',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Tue, 22 Nov 2016 09:42:33 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '143',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1479807753.274532,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 200,
+23 silly get   { server: 'nginx/1.10.1',
+23 silly get     'content-type': 'application/json',
+23 silly get     'last-modified': 'Tue, 22 Nov 2016 05:13:16 GMT',
+23 silly get     etag: 'W/"5833d3ec-ea62"',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '7671',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Tue, 22 Nov 2016 09:42:33 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '143',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin6922-SIN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1479807753.274532,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose get saving http-server to /home/vagrant/.npm/registry.npmjs.org/http-server/.cache.json
+25 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule http-server@0.9.0 checking installable status
+39 silly cache add args [ 'http-server', null ]
+40 verbose cache add spec http-server
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'http-server',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'http-server',
+41 silly cache add   name: 'http-server',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed http-server@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for http-server
+44 info addNameTag [ 'http-server', 'latest' ]
+45 silly mapToRegistry name http-server
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'http-server',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'http-server',
+48 silly mapToRegistry   name: 'http-server',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/http-server
+50 verbose addNameTag registry:https://registry.npmjs.org/http-server not in flight; fetching
+51 verbose get https://registry.npmjs.org/http-server not expired, no request
+52 silly addNameTag next cb for http-server with tag latest
+53 silly addNamed http-server@0.9.0
+54 verbose addNamed "0.9.0" is a plain semver version for http-server
+55 silly cache afterAdd http-server@0.9.0
+56 verbose afterAdd /home/vagrant/.npm/http-server/0.9.0/package/package.json not in flight; writing
+57 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /home/vagrant/.npm/http-server/0.9.0/package/package.json written
+59 silly fetchNamedPackageData colors
+60 silly mapToRegistry name colors
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'colors',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'colors',
+63 silly mapToRegistry   name: 'colors',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/colors
+65 silly fetchNamedPackageData corser
+66 silly mapToRegistry name corser
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'corser',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   escapedName: 'corser',
+69 silly mapToRegistry   name: 'corser',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/corser
+71 silly fetchNamedPackageData ecstatic
+72 silly mapToRegistry name ecstatic
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'ecstatic',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   escapedName: 'ecstatic',
+75 silly mapToRegistry   name: 'ecstatic',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri https://registry.npmjs.org/ecstatic
+77 silly fetchNamedPackageData http-proxy
+78 silly mapToRegistry name http-proxy
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'http-proxy',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'http-proxy',
+81 silly mapToRegistry   name: 'http-proxy',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+83 silly fetchNamedPackageData opener
+84 silly mapToRegistry name opener
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'opener',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'opener',
+87 silly mapToRegistry   name: 'opener',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/opener
+89 silly fetchNamedPackageData optimist
+90 silly mapToRegistry name optimist
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'optimist',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   escapedName: 'optimist',
+93 silly mapToRegistry   name: 'optimist',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/optimist
+95 silly fetchNamedPackageData portfinder
+96 silly mapToRegistry name portfinder
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry data Result {
+99 silly mapToRegistry   raw: 'portfinder',
+99 silly mapToRegistry   scope: null,
+99 silly mapToRegistry   escapedName: 'portfinder',
+99 silly mapToRegistry   name: 'portfinder',
+99 silly mapToRegistry   rawSpec: '',
+99 silly mapToRegistry   spec: 'latest',
+99 silly mapToRegistry   type: 'tag' }
+100 silly mapToRegistry uri https://registry.npmjs.org/portfinder
+101 silly fetchNamedPackageData union
+102 silly mapToRegistry name union
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'union',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'union',
+105 silly mapToRegistry   name: 'union',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/union
+107 verbose request uri https://registry.npmjs.org/colors
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 9:42:33 AM
+110 verbose etag W/"582d339d-568e"
+111 verbose lastModified Thu, 17 Nov 2016 04:35:41 GMT
+112 http request GET https://registry.npmjs.org/colors
+113 verbose request uri https://registry.npmjs.org/corser
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 9:42:33 AM
+116 verbose etag W/"57b362b2-4c27"
+117 verbose lastModified Tue, 16 Aug 2016 19:00:02 GMT
+118 http request GET https://registry.npmjs.org/corser
+119 verbose request uri https://registry.npmjs.org/http-proxy
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 9:42:33 AM
+122 verbose etag W/"5831a25b-2278a"
+123 verbose lastModified Sun, 20 Nov 2016 13:17:15 GMT
+124 http request GET https://registry.npmjs.org/http-proxy
+125 verbose request uri https://registry.npmjs.org/opener
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 9:42:33 AM
+128 verbose etag W/"581731ab-275a"
+129 verbose lastModified Mon, 31 Oct 2016 11:57:31 GMT
+130 http request GET https://registry.npmjs.org/opener
+131 verbose request uri https://registry.npmjs.org/optimist
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 9:42:33 AM
+134 verbose etag W/"582f0669-b6f3"
+135 verbose lastModified Fri, 18 Nov 2016 13:47:21 GMT
+136 http request GET https://registry.npmjs.org/optimist
+137 verbose request uri https://registry.npmjs.org/portfinder
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 9:42:33 AM
+140 verbose etag W/"58251182-5c54"
+141 verbose lastModified Fri, 11 Nov 2016 00:32:02 GMT
+142 http request GET https://registry.npmjs.org/portfinder
+143 verbose request uri https://registry.npmjs.org/union
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 9:42:33 AM
+146 verbose etag W/"580bb3e6-946a"
+147 verbose lastModified Sat, 22 Oct 2016 18:45:58 GMT
+148 http request GET https://registry.npmjs.org/union
+149 verbose request uri https://registry.npmjs.org/ecstatic
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 9:42:33 AM
+152 verbose etag W/"582f06d1-14b95"
+153 verbose lastModified Fri, 18 Nov 2016 13:49:05 GMT
+154 http request GET https://registry.npmjs.org/ecstatic
+155 http 200 https://registry.npmjs.org/colors
+156 verbose headers { server: 'nginx/1.10.1',
+156 verbose headers   'content-type': 'application/json',
+156 verbose headers   'last-modified': 'Mon, 21 Nov 2016 17:27:23 GMT',
+156 verbose headers   etag: 'W/"58332e7b-56a4"',
+156 verbose headers   'content-encoding': 'gzip',
+156 verbose headers   'cache-control': 'max-age=300',
+156 verbose headers   'content-length': '5795',
+156 verbose headers   'accept-ranges': 'bytes',
+156 verbose headers   date: 'Tue, 22 Nov 2016 09:42:33 GMT',
+156 verbose headers   via: '1.1 varnish',
+156 verbose headers   age: '280',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+156 verbose headers   'x-cache': 'HIT',
+156 verbose headers   'x-cache-hits': '44',
+156 verbose headers   'x-timer': 'S1479807753.874460,VS0,VE0',
+156 verbose headers   vary: 'Accept-Encoding' }
+157 silly get cb [ 200,
+157 silly get   { server: 'nginx/1.10.1',
+157 silly get     'content-type': 'application/json',
+157 silly get     'last-modified': 'Mon, 21 Nov 2016 17:27:23 GMT',
+157 silly get     etag: 'W/"58332e7b-56a4"',
+157 silly get     'content-encoding': 'gzip',
+157 silly get     'cache-control': 'max-age=300',
+157 silly get     'content-length': '5795',
+157 silly get     'accept-ranges': 'bytes',
+157 silly get     date: 'Tue, 22 Nov 2016 09:42:33 GMT',
+157 silly get     via: '1.1 varnish',
+157 silly get     age: '280',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-served-by': 'cache-sin6922-SIN',
+157 silly get     'x-cache': 'HIT',
+157 silly get     'x-cache-hits': '44',
+157 silly get     'x-timer': 'S1479807753.874460,VS0,VE0',
+157 silly get     vary: 'Accept-Encoding' } ]
+158 verbose get saving colors to /home/vagrant/.npm/registry.npmjs.org/colors/.cache.json
+159 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+160 silly resolveWithNewModule colors@1.0.3 checking installable status
+161 silly cache add args [ 'colors@1.0.3', null ]
+162 verbose cache add spec colors@1.0.3
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'colors@1.0.3',
+163 silly cache add   scope: null,
+163 silly cache add   escapedName: 'colors',
+163 silly cache add   name: 'colors',
+163 silly cache add   rawSpec: '1.0.3',
+163 silly cache add   spec: '1.0.3',
+163 silly cache add   type: 'version' }
+164 silly addNamed colors@1.0.3
+165 verbose addNamed "1.0.3" is a plain semver version for colors
+166 silly mapToRegistry name colors
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: 'colors',
+169 silly mapToRegistry   scope: null,
+169 silly mapToRegistry   escapedName: 'colors',
+169 silly mapToRegistry   name: 'colors',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/colors
+171 verbose addNameVersion registry:https://registry.npmjs.org/colors not in flight; fetching
+172 verbose get https://registry.npmjs.org/colors not expired, no request
+173 silly cache afterAdd colors@1.0.3
+174 verbose afterAdd /home/vagrant/.npm/colors/1.0.3/package/package.json not in flight; writing
+175 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+176 verbose afterAdd /home/vagrant/.npm/colors/1.0.3/package/package.json written
+177 http 304 https://registry.npmjs.org/corser
+178 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+178 verbose headers   via: '1.1 varnish',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   etag: 'W/"57b362b2-4c27"',
+178 verbose headers   age: '133',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+178 verbose headers   'x-cache': 'HIT',
+178 verbose headers   'x-cache-hits': '1',
+178 verbose headers   'x-timer': 'S1479807754.292014,VS0,VE0',
+178 verbose headers   vary: 'Accept-Encoding' }
+179 silly get cb [ 304,
+179 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     etag: 'W/"57b362b2-4c27"',
+179 silly get     age: '133',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-sin6925-SIN',
+179 silly get     'x-cache': 'HIT',
+179 silly get     'x-cache-hits': '1',
+179 silly get     'x-timer': 'S1479807754.292014,VS0,VE0',
+179 silly get     vary: 'Accept-Encoding' } ]
+180 verbose etag https://registry.npmjs.org/corser from cache
+181 verbose get saving corser to /home/vagrant/.npm/registry.npmjs.org/corser/.cache.json
+182 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+183 http 304 https://registry.npmjs.org/http-proxy
+184 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+184 verbose headers   via: '1.1 varnish',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   etag: 'W/"5831a25b-2278a"',
+184 verbose headers   age: '46',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+184 verbose headers   'x-cache': 'HIT',
+184 verbose headers   'x-cache-hits': '2',
+184 verbose headers   'x-timer': 'S1479807754.302740,VS0,VE0',
+184 verbose headers   vary: 'Accept-Encoding' }
+185 silly get cb [ 304,
+185 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     etag: 'W/"5831a25b-2278a"',
+185 silly get     age: '46',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-sin6927-SIN',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '2',
+185 silly get     'x-timer': 'S1479807754.302740,VS0,VE0',
+185 silly get     vary: 'Accept-Encoding' } ]
+186 verbose etag https://registry.npmjs.org/http-proxy from cache
+187 verbose get saving http-proxy to /home/vagrant/.npm/registry.npmjs.org/http-proxy/.cache.json
+188 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+189 silly resolveWithNewModule corser@2.0.1 checking installable status
+190 silly cache add args [ 'corser@~2.0.0', null ]
+191 verbose cache add spec corser@~2.0.0
+192 silly cache add parsed spec Result {
+192 silly cache add   raw: 'corser@~2.0.0',
+192 silly cache add   scope: null,
+192 silly cache add   escapedName: 'corser',
+192 silly cache add   name: 'corser',
+192 silly cache add   rawSpec: '~2.0.0',
+192 silly cache add   spec: '>=2.0.0 <2.1.0',
+192 silly cache add   type: 'range' }
+193 silly addNamed corser@>=2.0.0 <2.1.0
+194 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for corser
+195 silly addNameRange { name: 'corser', range: '>=2.0.0 <2.1.0', hasData: false }
+196 silly mapToRegistry name corser
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry data Result {
+199 silly mapToRegistry   raw: 'corser',
+199 silly mapToRegistry   scope: null,
+199 silly mapToRegistry   escapedName: 'corser',
+199 silly mapToRegistry   name: 'corser',
+199 silly mapToRegistry   rawSpec: '',
+199 silly mapToRegistry   spec: 'latest',
+199 silly mapToRegistry   type: 'tag' }
+200 silly mapToRegistry uri https://registry.npmjs.org/corser
+201 verbose addNameRange registry:https://registry.npmjs.org/corser not in flight; fetching
+202 http 304 https://registry.npmjs.org/ecstatic
+203 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+203 verbose headers   via: '1.1 varnish',
+203 verbose headers   'cache-control': 'max-age=300',
+203 verbose headers   etag: 'W/"582f06d1-14b95"',
+203 verbose headers   age: '258',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+203 verbose headers   'x-cache': 'HIT',
+203 verbose headers   'x-cache-hits': '39',
+203 verbose headers   'x-timer': 'S1479807754.350599,VS0,VE0',
+203 verbose headers   vary: 'Accept-Encoding' }
+204 silly get cb [ 304,
+204 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+204 silly get     via: '1.1 varnish',
+204 silly get     'cache-control': 'max-age=300',
+204 silly get     etag: 'W/"582f06d1-14b95"',
+204 silly get     age: '258',
+204 silly get     connection: 'keep-alive',
+204 silly get     'x-served-by': 'cache-sin6924-SIN',
+204 silly get     'x-cache': 'HIT',
+204 silly get     'x-cache-hits': '39',
+204 silly get     'x-timer': 'S1479807754.350599,VS0,VE0',
+204 silly get     vary: 'Accept-Encoding' } ]
+205 verbose etag https://registry.npmjs.org/ecstatic from cache
+206 verbose get saving ecstatic to /home/vagrant/.npm/registry.npmjs.org/ecstatic/.cache.json
+207 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+208 verbose get https://registry.npmjs.org/corser not expired, no request
+209 silly addNameRange number 2 { name: 'corser', range: '>=2.0.0 <2.1.0', hasData: true }
+210 silly addNameRange versions [ 'corser',
+210 silly addNameRange   [ '0.1.0',
+210 silly addNameRange     '0.2.0',
+210 silly addNameRange     '1.0.0',
+210 silly addNameRange     '1.0.1',
+210 silly addNameRange     '1.0.2',
+210 silly addNameRange     '1.1.0',
+210 silly addNameRange     '1.1.1',
+210 silly addNameRange     '1.1.2',
+210 silly addNameRange     '1.2.0',
+210 silly addNameRange     '2.0.0',
+210 silly addNameRange     '2.0.1' ] ]
+211 silly addNamed corser@2.0.1
+212 verbose addNamed "2.0.1" is a plain semver version for corser
+213 silly resolveWithNewModule http-proxy@1.15.2 checking installable status
+214 silly cache add args [ 'http-proxy@^1.8.1', null ]
+215 verbose cache add spec http-proxy@^1.8.1
+216 silly cache add parsed spec Result {
+216 silly cache add   raw: 'http-proxy@^1.8.1',
+216 silly cache add   scope: null,
+216 silly cache add   escapedName: 'http-proxy',
+216 silly cache add   name: 'http-proxy',
+216 silly cache add   rawSpec: '^1.8.1',
+216 silly cache add   spec: '>=1.8.1 <2.0.0',
+216 silly cache add   type: 'range' }
+217 silly addNamed http-proxy@>=1.8.1 <2.0.0
+218 verbose addNamed ">=1.8.1 <2.0.0" is a valid semver range for http-proxy
+219 silly addNameRange { name: 'http-proxy', range: '>=1.8.1 <2.0.0', hasData: false }
+220 silly mapToRegistry name http-proxy
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry data Result {
+223 silly mapToRegistry   raw: 'http-proxy',
+223 silly mapToRegistry   scope: null,
+223 silly mapToRegistry   escapedName: 'http-proxy',
+223 silly mapToRegistry   name: 'http-proxy',
+223 silly mapToRegistry   rawSpec: '',
+223 silly mapToRegistry   spec: 'latest',
+223 silly mapToRegistry   type: 'tag' }
+224 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+225 verbose addNameRange registry:https://registry.npmjs.org/http-proxy not in flight; fetching
+226 http 304 https://registry.npmjs.org/portfinder
+227 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+227 verbose headers   via: '1.1 varnish',
+227 verbose headers   'cache-control': 'max-age=300',
+227 verbose headers   etag: 'W/"58251182-5c54"',
+227 verbose headers   age: '276',
+227 verbose headers   connection: 'keep-alive',
+227 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+227 verbose headers   'x-cache': 'HIT',
+227 verbose headers   'x-cache-hits': '6',
+227 verbose headers   'x-timer': 'S1479807754.350761,VS0,VE0',
+227 verbose headers   vary: 'Accept-Encoding' }
+228 silly get cb [ 304,
+228 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+228 silly get     via: '1.1 varnish',
+228 silly get     'cache-control': 'max-age=300',
+228 silly get     etag: 'W/"58251182-5c54"',
+228 silly get     age: '276',
+228 silly get     connection: 'keep-alive',
+228 silly get     'x-served-by': 'cache-sin6920-SIN',
+228 silly get     'x-cache': 'HIT',
+228 silly get     'x-cache-hits': '6',
+228 silly get     'x-timer': 'S1479807754.350761,VS0,VE0',
+228 silly get     vary: 'Accept-Encoding' } ]
+229 verbose etag https://registry.npmjs.org/portfinder from cache
+230 verbose get saving portfinder to /home/vagrant/.npm/registry.npmjs.org/portfinder/.cache.json
+231 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+232 http 304 https://registry.npmjs.org/opener
+233 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+233 verbose headers   via: '1.1 varnish',
+233 verbose headers   'cache-control': 'max-age=300',
+233 verbose headers   etag: 'W/"581731ab-275a"',
+233 verbose headers   age: '73',
+233 verbose headers   connection: 'keep-alive',
+233 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+233 verbose headers   'x-cache': 'HIT',
+233 verbose headers   'x-cache-hits': '2',
+233 verbose headers   'x-timer': 'S1479807754.358465,VS0,VE0',
+233 verbose headers   vary: 'Accept-Encoding' }
+234 silly get cb [ 304,
+234 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+234 silly get     via: '1.1 varnish',
+234 silly get     'cache-control': 'max-age=300',
+234 silly get     etag: 'W/"581731ab-275a"',
+234 silly get     age: '73',
+234 silly get     connection: 'keep-alive',
+234 silly get     'x-served-by': 'cache-sin6924-SIN',
+234 silly get     'x-cache': 'HIT',
+234 silly get     'x-cache-hits': '2',
+234 silly get     'x-timer': 'S1479807754.358465,VS0,VE0',
+234 silly get     vary: 'Accept-Encoding' } ]
+235 verbose etag https://registry.npmjs.org/opener from cache
+236 verbose get saving opener to /home/vagrant/.npm/registry.npmjs.org/opener/.cache.json
+237 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+238 http 304 https://registry.npmjs.org/optimist
+239 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+239 verbose headers   via: '1.1 varnish',
+239 verbose headers   'cache-control': 'max-age=300',
+239 verbose headers   etag: 'W/"582f0669-b6f3"',
+239 verbose headers   age: '243',
+239 verbose headers   connection: 'keep-alive',
+239 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+239 verbose headers   'x-cache': 'HIT',
+239 verbose headers   'x-cache-hits': '31',
+239 verbose headers   'x-timer': 'S1479807754.355294,VS0,VE0',
+239 verbose headers   vary: 'Accept-Encoding' }
+240 silly get cb [ 304,
+240 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+240 silly get     via: '1.1 varnish',
+240 silly get     'cache-control': 'max-age=300',
+240 silly get     etag: 'W/"582f0669-b6f3"',
+240 silly get     age: '243',
+240 silly get     connection: 'keep-alive',
+240 silly get     'x-served-by': 'cache-sin6925-SIN',
+240 silly get     'x-cache': 'HIT',
+240 silly get     'x-cache-hits': '31',
+240 silly get     'x-timer': 'S1479807754.355294,VS0,VE0',
+240 silly get     vary: 'Accept-Encoding' } ]
+241 verbose etag https://registry.npmjs.org/optimist from cache
+242 verbose get saving optimist to /home/vagrant/.npm/registry.npmjs.org/optimist/.cache.json
+243 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+244 http 304 https://registry.npmjs.org/union
+245 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+245 verbose headers   via: '1.1 varnish',
+245 verbose headers   'cache-control': 'max-age=300',
+245 verbose headers   etag: 'W/"580bb3e6-946a"',
+245 verbose headers   age: '133',
+245 verbose headers   connection: 'keep-alive',
+245 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+245 verbose headers   'x-cache': 'HIT',
+245 verbose headers   'x-cache-hits': '1',
+245 verbose headers   'x-timer': 'S1479807754.389692,VS0,VE0',
+245 verbose headers   vary: 'Accept-Encoding' }
+246 silly get cb [ 304,
+246 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+246 silly get     via: '1.1 varnish',
+246 silly get     'cache-control': 'max-age=300',
+246 silly get     etag: 'W/"580bb3e6-946a"',
+246 silly get     age: '133',
+246 silly get     connection: 'keep-alive',
+246 silly get     'x-served-by': 'cache-sin6926-SIN',
+246 silly get     'x-cache': 'HIT',
+246 silly get     'x-cache-hits': '1',
+246 silly get     'x-timer': 'S1479807754.389692,VS0,VE0',
+246 silly get     vary: 'Accept-Encoding' } ]
+247 verbose etag https://registry.npmjs.org/union from cache
+248 verbose get saving union to /home/vagrant/.npm/registry.npmjs.org/union/.cache.json
+249 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+250 verbose get https://registry.npmjs.org/http-proxy not expired, no request
+251 silly addNameRange number 2 { name: 'http-proxy', range: '>=1.8.1 <2.0.0', hasData: true }
+252 silly addNameRange versions [ 'http-proxy',
+252 silly addNameRange   [ '0.5.9',
+252 silly addNameRange     '0.5.10',
+252 silly addNameRange     '0.5.11',
+252 silly addNameRange     '0.6.0',
+252 silly addNameRange     '0.6.1',
+252 silly addNameRange     '0.6.2',
+252 silly addNameRange     '0.6.4',
+252 silly addNameRange     '0.6.5',
+252 silly addNameRange     '0.6.6',
+252 silly addNameRange     '0.7.0',
+252 silly addNameRange     '0.7.2',
+252 silly addNameRange     '0.7.3',
+252 silly addNameRange     '0.7.4',
+252 silly addNameRange     '0.7.5',
+252 silly addNameRange     '0.7.6',
+252 silly addNameRange     '0.8.0',
+252 silly addNameRange     '0.8.1',
+252 silly addNameRange     '0.8.2',
+252 silly addNameRange     '0.8.3',
+252 silly addNameRange     '0.8.4',
+252 silly addNameRange     '0.8.5',
+252 silly addNameRange     '0.8.6',
+252 silly addNameRange     '0.8.7',
+252 silly addNameRange     '0.9.0',
+252 silly addNameRange     '0.9.1',
+252 silly addNameRange     '0.10.0',
+252 silly addNameRange     '0.10.1',
+252 silly addNameRange     '0.10.2',
+252 silly addNameRange     '0.10.3',
+252 silly addNameRange     '0.10.4',
+252 silly addNameRange     '1.0.0',
+252 silly addNameRange     '1.0.1',
+252 silly addNameRange     '1.0.2',
+252 silly addNameRange     '1.0.3',
+252 silly addNameRange     '1.1.0',
+252 silly addNameRange     '1.1.1',
+252 silly addNameRange     '1.1.2',
+252 silly addNameRange     '1.1.3',
+252 silly addNameRange     '1.1.4',
+252 silly addNameRange     '1.1.5',
+252 silly addNameRange     '1.1.6',
+252 silly addNameRange     '1.2.0',
+252 silly addNameRange     '1.2.1',
+252 silly addNameRange     '1.3.0',
+252 silly addNameRange     '1.4.0',
+252 silly addNameRange     '1.4.1',
+252 silly addNameRange     '1.4.2',
+252 silly addNameRange     '1.4.3',
+252 silly addNameRange     '1.5.0',
+252 silly addNameRange     '1.5.1',
+252 silly addNameRange     '1.5.2',
+252 silly addNameRange     '1.5.3',
+252 silly addNameRange     '1.6.0',
+252 silly addNameRange     '1.6.1',
+252 silly addNameRange     '1.6.2',
+252 silly addNameRange     '1.7.0',
+252 silly addNameRange     '1.7.1',
+252 silly addNameRange     '1.7.2',
+252 silly addNameRange     '1.7.3',
+252 silly addNameRange     '1.8.0',
+252 silly addNameRange     '1.8.1',
+252 silly addNameRange     '1.9.0',
+252 silly addNameRange     '1.9.1',
+252 silly addNameRange     '1.10.0',
+252 silly addNameRange     '1.10.1',
+252 silly addNameRange     '1.11.0',
+252 silly addNameRange     '1.11.1',
+252 silly addNameRange     '1.11.2',
+252 silly addNameRange     '1.11.3',
+252 silly addNameRange     '1.12.0',
+252 silly addNameRange     '1.12.1',
+252 silly addNameRange     '1.13.0',
+252 silly addNameRange     '1.13.1',
+252 silly addNameRange     '1.13.2',
+252 silly addNameRange     '1.13.3',
+252 silly addNameRange     '1.14.0',
+252 silly addNameRange     '1.15.0',
+252 silly addNameRange     '1.15.1',
+252 silly addNameRange     '1.15.2' ] ]
+253 silly addNamed http-proxy@1.15.2
+254 verbose addNamed "1.15.2" is a plain semver version for http-proxy
+255 silly resolveWithNewModule ecstatic@1.4.1 checking installable status
+256 silly cache add args [ 'ecstatic@^1.4.0', null ]
+257 verbose cache add spec ecstatic@^1.4.0
+258 silly cache add parsed spec Result {
+258 silly cache add   raw: 'ecstatic@^1.4.0',
+258 silly cache add   scope: null,
+258 silly cache add   escapedName: 'ecstatic',
+258 silly cache add   name: 'ecstatic',
+258 silly cache add   rawSpec: '^1.4.0',
+258 silly cache add   spec: '>=1.4.0 <2.0.0',
+258 silly cache add   type: 'range' }
+259 silly addNamed ecstatic@>=1.4.0 <2.0.0
+260 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for ecstatic
+261 silly addNameRange { name: 'ecstatic', range: '>=1.4.0 <2.0.0', hasData: false }
+262 silly mapToRegistry name ecstatic
+263 silly mapToRegistry using default registry
+264 silly mapToRegistry registry https://registry.npmjs.org/
+265 silly mapToRegistry data Result {
+265 silly mapToRegistry   raw: 'ecstatic',
+265 silly mapToRegistry   scope: null,
+265 silly mapToRegistry   escapedName: 'ecstatic',
+265 silly mapToRegistry   name: 'ecstatic',
+265 silly mapToRegistry   rawSpec: '',
+265 silly mapToRegistry   spec: 'latest',
+265 silly mapToRegistry   type: 'tag' }
+266 silly mapToRegistry uri https://registry.npmjs.org/ecstatic
+267 verbose addNameRange registry:https://registry.npmjs.org/ecstatic not in flight; fetching
+268 silly cache afterAdd corser@2.0.1
+269 verbose afterAdd /home/vagrant/.npm/corser/2.0.1/package/package.json not in flight; writing
+270 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+271 verbose get https://registry.npmjs.org/ecstatic not expired, no request
+272 silly addNameRange number 2 { name: 'ecstatic', range: '>=1.4.0 <2.0.0', hasData: true }
+273 silly addNameRange versions [ 'ecstatic',
+273 silly addNameRange   [ '0.0.0',
+273 silly addNameRange     '0.0.1',
+273 silly addNameRange     '0.1.0',
+273 silly addNameRange     '0.1.1',
+273 silly addNameRange     '0.1.1-1',
+273 silly addNameRange     '0.1.2',
+273 silly addNameRange     '0.1.2-1',
+273 silly addNameRange     '0.1.4',
+273 silly addNameRange     '0.1.5',
+273 silly addNameRange     '0.1.6',
+273 silly addNameRange     '0.1.7',
+273 silly addNameRange     '0.3.0',
+273 silly addNameRange     '0.3.1',
+273 silly addNameRange     '0.3.2',
+273 silly addNameRange     '0.4.0',
+273 silly addNameRange     '0.4.1',
+273 silly addNameRange     '0.4.2',
+273 silly addNameRange     '0.4.3',
+273 silly addNameRange     '0.4.4',
+273 silly addNameRange     '0.4.5',
+273 silly addNameRange     '0.4.6',
+273 silly addNameRange     '0.4.7',
+273 silly addNameRange     '0.4.8',
+273 silly addNameRange     '0.4.9',
+273 silly addNameRange     '0.4.10',
+273 silly addNameRange     '0.4.11',
+273 silly addNameRange     '0.4.12',
+273 silly addNameRange     '0.4.13',
+273 silly addNameRange     '0.5.0',
+273 silly addNameRange     '0.5.1',
+273 silly addNameRange     '0.5.2',
+273 silly addNameRange     '0.5.3',
+273 silly addNameRange     '0.5.4',
+273 silly addNameRange     '0.5.5',
+273 silly addNameRange     '0.5.6',
+273 silly addNameRange     '0.5.7',
+273 silly addNameRange     '0.5.8',
+273 silly addNameRange     '0.6.0',
+273 silly addNameRange     '0.6.1',
+273 silly addNameRange     '0.7.0',
+273 silly addNameRange     '0.7.1',
+273 silly addNameRange     '0.7.2',
+273 silly addNameRange     '0.7.3',
+273 silly addNameRange     '0.7.4',
+273 silly addNameRange     '0.7.5',
+273 silly addNameRange     '0.7.6',
+273 silly addNameRange     '0.8.0',
+273 silly addNameRange     '1.0.0',
+273 silly addNameRange     '1.0.1',
+273 silly addNameRange     '1.1.0',
+273 silly addNameRange     '1.1.1',
+273 silly addNameRange     '1.1.2',
+273 silly addNameRange     '1.1.3',
+273 silly addNameRange     '1.2.0',
+273 silly addNameRange     '1.3.0',
+273 silly addNameRange     '1.3.1',
+273 silly addNameRange     '1.4.0',
+273 silly addNameRange     '1.4.1',
+273 silly addNameRange     '2.0.0',
+273 silly addNameRange     '2.1.0' ] ]
+274 silly addNamed ecstatic@1.4.1
+275 verbose addNamed "1.4.1" is a plain semver version for ecstatic
+276 verbose afterAdd /home/vagrant/.npm/corser/2.0.1/package/package.json written
+277 silly resolveWithNewModule portfinder@0.4.0 checking installable status
+278 silly cache add args [ 'portfinder@0.4.x', null ]
+279 verbose cache add spec portfinder@0.4.x
+280 silly cache add parsed spec Result {
+280 silly cache add   raw: 'portfinder@0.4.x',
+280 silly cache add   scope: null,
+280 silly cache add   escapedName: 'portfinder',
+280 silly cache add   name: 'portfinder',
+280 silly cache add   rawSpec: '0.4.x',
+280 silly cache add   spec: '>=0.4.0 <0.5.0',
+280 silly cache add   type: 'range' }
+281 silly addNamed portfinder@>=0.4.0 <0.5.0
+282 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for portfinder
+283 silly addNameRange { name: 'portfinder', range: '>=0.4.0 <0.5.0', hasData: false }
+284 silly mapToRegistry name portfinder
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'portfinder',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   escapedName: 'portfinder',
+287 silly mapToRegistry   name: 'portfinder',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/portfinder
+289 verbose addNameRange registry:https://registry.npmjs.org/portfinder not in flight; fetching
+290 silly cache afterAdd http-proxy@1.15.2
+291 verbose afterAdd /home/vagrant/.npm/http-proxy/1.15.2/package/package.json not in flight; writing
+292 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+293 silly resolveWithNewModule opener@1.4.2 checking installable status
+294 silly cache add args [ 'opener@~1.4.0', null ]
+295 verbose cache add spec opener@~1.4.0
+296 silly cache add parsed spec Result {
+296 silly cache add   raw: 'opener@~1.4.0',
+296 silly cache add   scope: null,
+296 silly cache add   escapedName: 'opener',
+296 silly cache add   name: 'opener',
+296 silly cache add   rawSpec: '~1.4.0',
+296 silly cache add   spec: '>=1.4.0 <1.5.0',
+296 silly cache add   type: 'range' }
+297 silly addNamed opener@>=1.4.0 <1.5.0
+298 verbose addNamed ">=1.4.0 <1.5.0" is a valid semver range for opener
+299 silly addNameRange { name: 'opener', range: '>=1.4.0 <1.5.0', hasData: false }
+300 silly mapToRegistry name opener
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry data Result {
+303 silly mapToRegistry   raw: 'opener',
+303 silly mapToRegistry   scope: null,
+303 silly mapToRegistry   escapedName: 'opener',
+303 silly mapToRegistry   name: 'opener',
+303 silly mapToRegistry   rawSpec: '',
+303 silly mapToRegistry   spec: 'latest',
+303 silly mapToRegistry   type: 'tag' }
+304 silly mapToRegistry uri https://registry.npmjs.org/opener
+305 verbose addNameRange registry:https://registry.npmjs.org/opener not in flight; fetching
+306 silly resolveWithNewModule optimist@0.6.1 checking installable status
+307 silly cache add args [ 'optimist@0.6.x', null ]
+308 verbose cache add spec optimist@0.6.x
+309 silly cache add parsed spec Result {
+309 silly cache add   raw: 'optimist@0.6.x',
+309 silly cache add   scope: null,
+309 silly cache add   escapedName: 'optimist',
+309 silly cache add   name: 'optimist',
+309 silly cache add   rawSpec: '0.6.x',
+309 silly cache add   spec: '>=0.6.0 <0.7.0',
+309 silly cache add   type: 'range' }
+310 silly addNamed optimist@>=0.6.0 <0.7.0
+311 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for optimist
+312 silly addNameRange { name: 'optimist', range: '>=0.6.0 <0.7.0', hasData: false }
+313 silly mapToRegistry name optimist
+314 silly mapToRegistry using default registry
+315 silly mapToRegistry registry https://registry.npmjs.org/
+316 silly mapToRegistry data Result {
+316 silly mapToRegistry   raw: 'optimist',
+316 silly mapToRegistry   scope: null,
+316 silly mapToRegistry   escapedName: 'optimist',
+316 silly mapToRegistry   name: 'optimist',
+316 silly mapToRegistry   rawSpec: '',
+316 silly mapToRegistry   spec: 'latest',
+316 silly mapToRegistry   type: 'tag' }
+317 silly mapToRegistry uri https://registry.npmjs.org/optimist
+318 verbose addNameRange registry:https://registry.npmjs.org/optimist not in flight; fetching
+319 silly resolveWithNewModule union@0.4.6 checking installable status
+320 silly cache add args [ 'union@~0.4.3', null ]
+321 verbose cache add spec union@~0.4.3
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'union@~0.4.3',
+322 silly cache add   scope: null,
+322 silly cache add   escapedName: 'union',
+322 silly cache add   name: 'union',
+322 silly cache add   rawSpec: '~0.4.3',
+322 silly cache add   spec: '>=0.4.3 <0.5.0',
+322 silly cache add   type: 'range' }
+323 silly addNamed union@>=0.4.3 <0.5.0
+324 verbose addNamed ">=0.4.3 <0.5.0" is a valid semver range for union
+325 silly addNameRange { name: 'union', range: '>=0.4.3 <0.5.0', hasData: false }
+326 silly mapToRegistry name union
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry data Result {
+329 silly mapToRegistry   raw: 'union',
+329 silly mapToRegistry   scope: null,
+329 silly mapToRegistry   escapedName: 'union',
+329 silly mapToRegistry   name: 'union',
+329 silly mapToRegistry   rawSpec: '',
+329 silly mapToRegistry   spec: 'latest',
+329 silly mapToRegistry   type: 'tag' }
+330 silly mapToRegistry uri https://registry.npmjs.org/union
+331 verbose addNameRange registry:https://registry.npmjs.org/union not in flight; fetching
+332 verbose get https://registry.npmjs.org/portfinder not expired, no request
+333 silly addNameRange number 2 { name: 'portfinder', range: '>=0.4.0 <0.5.0', hasData: true }
+334 silly addNameRange versions [ 'portfinder',
+334 silly addNameRange   [ '0.1.0',
+334 silly addNameRange     '0.2.0',
+334 silly addNameRange     '0.2.1',
+334 silly addNameRange     '0.3.0',
+334 silly addNameRange     '0.4.0',
+334 silly addNameRange     '1.0.0',
+334 silly addNameRange     '1.0.1',
+334 silly addNameRange     '1.0.2',
+334 silly addNameRange     '1.0.3',
+334 silly addNameRange     '1.0.4',
+334 silly addNameRange     '1.0.5',
+334 silly addNameRange     '1.0.6',
+334 silly addNameRange     '1.0.7-beta.0',
+334 silly addNameRange     '1.0.7',
+334 silly addNameRange     '1.0.8',
+334 silly addNameRange     '1.0.9',
+334 silly addNameRange     '1.0.10' ] ]
+335 silly addNamed portfinder@0.4.0
+336 verbose addNamed "0.4.0" is a plain semver version for portfinder
+337 verbose get https://registry.npmjs.org/opener not expired, no request
+338 silly addNameRange number 2 { name: 'opener', range: '>=1.4.0 <1.5.0', hasData: true }
+339 silly addNameRange versions [ 'opener',
+339 silly addNameRange   [ '1.0.0',
+339 silly addNameRange     '1.0.1',
+339 silly addNameRange     '1.1.0',
+339 silly addNameRange     '1.2.0',
+339 silly addNameRange     '1.3.0',
+339 silly addNameRange     '1.4.0',
+339 silly addNameRange     '1.4.1',
+339 silly addNameRange     '1.4.2' ] ]
+340 silly addNamed opener@1.4.2
+341 verbose addNamed "1.4.2" is a plain semver version for opener
+342 verbose get https://registry.npmjs.org/optimist not expired, no request
+343 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0 <0.7.0', hasData: true }
+344 silly addNameRange versions [ 'optimist',
+344 silly addNameRange   [ '0.0.1',
+344 silly addNameRange     '0.0.2',
+344 silly addNameRange     '0.0.4',
+344 silly addNameRange     '0.0.5',
+344 silly addNameRange     '0.0.6',
+344 silly addNameRange     '0.0.7',
+344 silly addNameRange     '0.1.0',
+344 silly addNameRange     '0.1.1',
+344 silly addNameRange     '0.1.2',
+344 silly addNameRange     '0.1.3',
+344 silly addNameRange     '0.1.4',
+344 silly addNameRange     '0.1.5',
+344 silly addNameRange     '0.1.6',
+344 silly addNameRange     '0.1.7',
+344 silly addNameRange     '0.1.8',
+344 silly addNameRange     '0.1.9',
+344 silly addNameRange     '0.0.3',
+344 silly addNameRange     '0.2.0',
+344 silly addNameRange     '0.2.1',
+344 silly addNameRange     '0.2.2',
+344 silly addNameRange     '0.2.3',
+344 silly addNameRange     '0.2.4',
+344 silly addNameRange     '0.2.5',
+344 silly addNameRange     '0.2.6',
+344 silly addNameRange     '0.2.7',
+344 silly addNameRange     '0.2.8',
+344 silly addNameRange     '0.3.0',
+344 silly addNameRange     '0.3.1',
+344 silly addNameRange     '0.3.3',
+344 silly addNameRange     '0.3.4',
+344 silly addNameRange     '0.3.5',
+344 silly addNameRange     '0.3.6',
+344 silly addNameRange     '0.3.7',
+344 silly addNameRange     '0.4.0',
+344 silly addNameRange     '0.5.0',
+344 silly addNameRange     '0.5.1',
+344 silly addNameRange     '0.5.2',
+344 silly addNameRange     '0.6.0',
+344 silly addNameRange     '0.6.1' ] ]
+345 silly addNamed optimist@0.6.1
+346 verbose addNamed "0.6.1" is a plain semver version for optimist
+347 verbose get https://registry.npmjs.org/union not expired, no request
+348 silly addNameRange number 2 { name: 'union', range: '>=0.4.3 <0.5.0', hasData: true }
+349 silly addNameRange versions [ 'union',
+349 silly addNameRange   [ '0.1.0',
+349 silly addNameRange     '0.1.2',
+349 silly addNameRange     '0.1.3',
+349 silly addNameRange     '0.1.4',
+349 silly addNameRange     '0.1.5',
+349 silly addNameRange     '0.1.6',
+349 silly addNameRange     '0.1.7',
+349 silly addNameRange     '0.1.8',
+349 silly addNameRange     '0.2.0',
+349 silly addNameRange     '0.2.1',
+349 silly addNameRange     '0.3.0',
+349 silly addNameRange     '0.3.2',
+349 silly addNameRange     '0.3.3',
+349 silly addNameRange     '0.3.4',
+349 silly addNameRange     '0.3.5',
+349 silly addNameRange     '0.3.6',
+349 silly addNameRange     '0.3.7',
+349 silly addNameRange     '0.3.8',
+349 silly addNameRange     '0.4.0',
+349 silly addNameRange     '0.4.1',
+349 silly addNameRange     '0.4.2',
+349 silly addNameRange     '0.4.3',
+349 silly addNameRange     '0.4.4',
+349 silly addNameRange     '0.4.5',
+349 silly addNameRange     '0.4.6' ] ]
+350 silly addNamed union@0.4.6
+351 verbose addNamed "0.4.6" is a plain semver version for union
+352 silly cache afterAdd ecstatic@1.4.1
+353 verbose afterAdd /home/vagrant/.npm/ecstatic/1.4.1/package/package.json not in flight; writing
+354 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+355 verbose afterAdd /home/vagrant/.npm/http-proxy/1.15.2/package/package.json written
+356 silly cache afterAdd portfinder@0.4.0
+357 verbose afterAdd /home/vagrant/.npm/portfinder/0.4.0/package/package.json not in flight; writing
+358 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+359 silly cache afterAdd optimist@0.6.1
+360 verbose afterAdd /home/vagrant/.npm/optimist/0.6.1/package/package.json not in flight; writing
+361 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+362 silly cache afterAdd union@0.4.6
+363 verbose afterAdd /home/vagrant/.npm/union/0.4.6/package/package.json not in flight; writing
+364 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+365 verbose afterAdd /home/vagrant/.npm/ecstatic/1.4.1/package/package.json written
+366 silly cache afterAdd opener@1.4.2
+367 verbose afterAdd /home/vagrant/.npm/opener/1.4.2/package/package.json not in flight; writing
+368 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+369 verbose afterAdd /home/vagrant/.npm/portfinder/0.4.0/package/package.json written
+370 verbose afterAdd /home/vagrant/.npm/optimist/0.6.1/package/package.json written
+371 verbose afterAdd /home/vagrant/.npm/union/0.4.6/package/package.json written
+372 verbose afterAdd /home/vagrant/.npm/opener/1.4.2/package/package.json written
+373 silly fetchNamedPackageData he
+374 silly mapToRegistry name he
+375 silly mapToRegistry using default registry
+376 silly mapToRegistry registry https://registry.npmjs.org/
+377 silly mapToRegistry data Result {
+377 silly mapToRegistry   raw: 'he',
+377 silly mapToRegistry   scope: null,
+377 silly mapToRegistry   escapedName: 'he',
+377 silly mapToRegistry   name: 'he',
+377 silly mapToRegistry   rawSpec: '',
+377 silly mapToRegistry   spec: 'latest',
+377 silly mapToRegistry   type: 'tag' }
+378 silly mapToRegistry uri https://registry.npmjs.org/he
+379 silly fetchNamedPackageData mime
+380 silly mapToRegistry name mime
+381 silly mapToRegistry using default registry
+382 silly mapToRegistry registry https://registry.npmjs.org/
+383 silly mapToRegistry data Result {
+383 silly mapToRegistry   raw: 'mime',
+383 silly mapToRegistry   scope: null,
+383 silly mapToRegistry   escapedName: 'mime',
+383 silly mapToRegistry   name: 'mime',
+383 silly mapToRegistry   rawSpec: '',
+383 silly mapToRegistry   spec: 'latest',
+383 silly mapToRegistry   type: 'tag' }
+384 silly mapToRegistry uri https://registry.npmjs.org/mime
+385 silly fetchNamedPackageData minimist
+386 silly mapToRegistry name minimist
+387 silly mapToRegistry using default registry
+388 silly mapToRegistry registry https://registry.npmjs.org/
+389 silly mapToRegistry data Result {
+389 silly mapToRegistry   raw: 'minimist',
+389 silly mapToRegistry   scope: null,
+389 silly mapToRegistry   escapedName: 'minimist',
+389 silly mapToRegistry   name: 'minimist',
+389 silly mapToRegistry   rawSpec: '',
+389 silly mapToRegistry   spec: 'latest',
+389 silly mapToRegistry   type: 'tag' }
+390 silly mapToRegistry uri https://registry.npmjs.org/minimist
+391 silly fetchNamedPackageData url-join
+392 silly mapToRegistry name url-join
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry data Result {
+395 silly mapToRegistry   raw: 'url-join',
+395 silly mapToRegistry   scope: null,
+395 silly mapToRegistry   escapedName: 'url-join',
+395 silly mapToRegistry   name: 'url-join',
+395 silly mapToRegistry   rawSpec: '',
+395 silly mapToRegistry   spec: 'latest',
+395 silly mapToRegistry   type: 'tag' }
+396 silly mapToRegistry uri https://registry.npmjs.org/url-join
+397 verbose request uri https://registry.npmjs.org/he
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 9:42:34 AM
+400 verbose etag W/"572c7380-b51a"
+401 verbose lastModified Fri, 06 May 2016 10:35:44 GMT
+402 http request GET https://registry.npmjs.org/he
+403 verbose request uri https://registry.npmjs.org/mime
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 9:42:34 AM
+406 verbose etag W/"58221d20-50af"
+407 verbose lastModified Tue, 08 Nov 2016 18:44:48 GMT
+408 http request GET https://registry.npmjs.org/mime
+409 verbose request uri https://registry.npmjs.org/url-join
+410 verbose request no auth needed
+411 info attempt registry request try #1 at 9:42:34 AM
+412 verbose etag W/"5827a0ae-1373"
+413 verbose lastModified Sat, 12 Nov 2016 23:07:26 GMT
+414 http request GET https://registry.npmjs.org/url-join
+415 verbose request uri https://registry.npmjs.org/minimist
+416 verbose request no auth needed
+417 info attempt registry request try #1 at 9:42:34 AM
+418 verbose etag W/"5830b9d6-71e4"
+419 verbose lastModified Sat, 19 Nov 2016 20:45:10 GMT
+420 http request GET https://registry.npmjs.org/minimist
+421 http 304 https://registry.npmjs.org/mime
+422 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+422 verbose headers   via: '1.1 varnish',
+422 verbose headers   'cache-control': 'max-age=300',
+422 verbose headers   etag: 'W/"58221d20-50af"',
+422 verbose headers   age: '61',
+422 verbose headers   connection: 'keep-alive',
+422 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+422 verbose headers   'x-cache': 'HIT',
+422 verbose headers   'x-cache-hits': '13',
+422 verbose headers   'x-timer': 'S1479807754.851315,VS0,VE0',
+422 verbose headers   vary: 'Accept-Encoding' }
+423 silly get cb [ 304,
+423 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+423 silly get     via: '1.1 varnish',
+423 silly get     'cache-control': 'max-age=300',
+423 silly get     etag: 'W/"58221d20-50af"',
+423 silly get     age: '61',
+423 silly get     connection: 'keep-alive',
+423 silly get     'x-served-by': 'cache-sin6925-SIN',
+423 silly get     'x-cache': 'HIT',
+423 silly get     'x-cache-hits': '13',
+423 silly get     'x-timer': 'S1479807754.851315,VS0,VE0',
+423 silly get     vary: 'Accept-Encoding' } ]
+424 verbose etag https://registry.npmjs.org/mime from cache
+425 verbose get saving mime to /home/vagrant/.npm/registry.npmjs.org/mime/.cache.json
+426 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+427 http 304 https://registry.npmjs.org/url-join
+428 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+428 verbose headers   via: '1.1 varnish',
+428 verbose headers   'cache-control': 'max-age=300',
+428 verbose headers   etag: 'W/"5827a0ae-1373"',
+428 verbose headers   age: '7',
+428 verbose headers   connection: 'keep-alive',
+428 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+428 verbose headers   'x-cache': 'HIT',
+428 verbose headers   'x-cache-hits': '1',
+428 verbose headers   'x-timer': 'S1479807754.851160,VS0,VE0',
+428 verbose headers   vary: 'Accept-Encoding' }
+429 silly get cb [ 304,
+429 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+429 silly get     via: '1.1 varnish',
+429 silly get     'cache-control': 'max-age=300',
+429 silly get     etag: 'W/"5827a0ae-1373"',
+429 silly get     age: '7',
+429 silly get     connection: 'keep-alive',
+429 silly get     'x-served-by': 'cache-sin6927-SIN',
+429 silly get     'x-cache': 'HIT',
+429 silly get     'x-cache-hits': '1',
+429 silly get     'x-timer': 'S1479807754.851160,VS0,VE0',
+429 silly get     vary: 'Accept-Encoding' } ]
+430 verbose etag https://registry.npmjs.org/url-join from cache
+431 verbose get saving url-join to /home/vagrant/.npm/registry.npmjs.org/url-join/.cache.json
+432 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+433 http 304 https://registry.npmjs.org/he
+434 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+434 verbose headers   via: '1.1 varnish',
+434 verbose headers   'cache-control': 'max-age=300',
+434 verbose headers   etag: 'W/"572c7380-b51a"',
+434 verbose headers   age: '130',
+434 verbose headers   connection: 'keep-alive',
+434 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+434 verbose headers   'x-cache': 'HIT',
+434 verbose headers   'x-cache-hits': '6',
+434 verbose headers   'x-timer': 'S1479807754.847770,VS0,VE0',
+434 verbose headers   vary: 'Accept-Encoding' }
+435 silly get cb [ 304,
+435 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+435 silly get     via: '1.1 varnish',
+435 silly get     'cache-control': 'max-age=300',
+435 silly get     etag: 'W/"572c7380-b51a"',
+435 silly get     age: '130',
+435 silly get     connection: 'keep-alive',
+435 silly get     'x-served-by': 'cache-sin6922-SIN',
+435 silly get     'x-cache': 'HIT',
+435 silly get     'x-cache-hits': '6',
+435 silly get     'x-timer': 'S1479807754.847770,VS0,VE0',
+435 silly get     vary: 'Accept-Encoding' } ]
+436 verbose etag https://registry.npmjs.org/he from cache
+437 verbose get saving he to /home/vagrant/.npm/registry.npmjs.org/he/.cache.json
+438 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+439 http 304 https://registry.npmjs.org/minimist
+440 verbose headers { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+440 verbose headers   via: '1.1 varnish',
+440 verbose headers   'cache-control': 'max-age=300',
+440 verbose headers   etag: 'W/"5830b9d6-71e4"',
+440 verbose headers   age: '187',
+440 verbose headers   connection: 'keep-alive',
+440 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+440 verbose headers   'x-cache': 'HIT',
+440 verbose headers   'x-cache-hits': '68',
+440 verbose headers   'x-timer': 'S1479807754.857510,VS0,VE0',
+440 verbose headers   vary: 'Accept-Encoding' }
+441 silly get cb [ 304,
+441 silly get   { date: 'Tue, 22 Nov 2016 09:42:34 GMT',
+441 silly get     via: '1.1 varnish',
+441 silly get     'cache-control': 'max-age=300',
+441 silly get     etag: 'W/"5830b9d6-71e4"',
+441 silly get     age: '187',
+441 silly get     connection: 'keep-alive',
+441 silly get     'x-served-by': 'cache-sin6924-SIN',
+441 silly get     'x-cache': 'HIT',
+441 silly get     'x-cache-hits': '68',
+441 silly get     'x-timer': 'S1479807754.857510,VS0,VE0',
+441 silly get     vary: 'Accept-Encoding' } ]
+442 verbose etag https://registry.npmjs.org/minimist from cache
+443 verbose get saving minimist to /home/vagrant/.npm/registry.npmjs.org/minimist/.cache.json
+444 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+445 silly resolveWithNewModule mime@1.3.4 checking installable status
+446 silly cache add args [ 'mime@^1.2.11', null ]
+447 verbose cache add spec mime@^1.2.11
+448 silly cache add parsed spec Result {
+448 silly cache add   raw: 'mime@^1.2.11',
+448 silly cache add   scope: null,
+448 silly cache add   escapedName: 'mime',
+448 silly cache add   name: 'mime',
+448 silly cache add   rawSpec: '^1.2.11',
+448 silly cache add   spec: '>=1.2.11 <2.0.0',
+448 silly cache add   type: 'range' }
+449 silly addNamed mime@>=1.2.11 <2.0.0
+450 verbose addNamed ">=1.2.11 <2.0.0" is a valid semver range for mime
+451 silly addNameRange { name: 'mime', range: '>=1.2.11 <2.0.0', hasData: false }
+452 silly mapToRegistry name mime
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry data Result {
+455 silly mapToRegistry   raw: 'mime',
+455 silly mapToRegistry   scope: null,
+455 silly mapToRegistry   escapedName: 'mime',
+455 silly mapToRegistry   name: 'mime',
+455 silly mapToRegistry   rawSpec: '',
+455 silly mapToRegistry   spec: 'latest',
+455 silly mapToRegistry   type: 'tag' }
+456 silly mapToRegistry uri https://registry.npmjs.org/mime
+457 verbose addNameRange registry:https://registry.npmjs.org/mime not in flight; fetching
+458 verbose get https://registry.npmjs.org/mime not expired, no request
+459 silly addNameRange number 2 { name: 'mime', range: '>=1.2.11 <2.0.0', hasData: true }
+460 silly addNameRange versions [ 'mime',
+460 silly addNameRange   [ '1.0.0',
+460 silly addNameRange     '1.1.0',
+460 silly addNameRange     '1.2.1',
+460 silly addNameRange     '1.2.2',
+460 silly addNameRange     '1.2.3',
+460 silly addNameRange     '1.2.4',
+460 silly addNameRange     '1.2.5',
+460 silly addNameRange     '1.2.6',
+460 silly addNameRange     '1.2.7',
+460 silly addNameRange     '1.2.8',
+460 silly addNameRange     '1.2.9',
+460 silly addNameRange     '1.2.10',
+460 silly addNameRange     '1.2.11',
+460 silly addNameRange     '1.3.0',
+460 silly addNameRange     '1.3.2',
+460 silly addNameRange     '1.3.3',
+460 silly addNameRange     '1.3.4' ] ]
+461 silly addNamed mime@1.3.4
+462 verbose addNamed "1.3.4" is a plain semver version for mime
+463 silly resolveWithNewModule url-join@1.1.0 checking installable status
+464 silly cache add args [ 'url-join@^1.0.0', null ]
+465 verbose cache add spec url-join@^1.0.0
+466 silly cache add parsed spec Result {
+466 silly cache add   raw: 'url-join@^1.0.0',
+466 silly cache add   scope: null,
+466 silly cache add   escapedName: 'url-join',
+466 silly cache add   name: 'url-join',
+466 silly cache add   rawSpec: '^1.0.0',
+466 silly cache add   spec: '>=1.0.0 <2.0.0',
+466 silly cache add   type: 'range' }
+467 silly addNamed url-join@>=1.0.0 <2.0.0
+468 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for url-join
+469 silly addNameRange { name: 'url-join', range: '>=1.0.0 <2.0.0', hasData: false }
+470 silly mapToRegistry name url-join
+471 silly mapToRegistry using default registry
+472 silly mapToRegistry registry https://registry.npmjs.org/
+473 silly mapToRegistry data Result {
+473 silly mapToRegistry   raw: 'url-join',
+473 silly mapToRegistry   scope: null,
+473 silly mapToRegistry   escapedName: 'url-join',
+473 silly mapToRegistry   name: 'url-join',
+473 silly mapToRegistry   rawSpec: '',
+473 silly mapToRegistry   spec: 'latest',
+473 silly mapToRegistry   type: 'tag' }
+474 silly mapToRegistry uri https://registry.npmjs.org/url-join
+475 verbose addNameRange registry:https://registry.npmjs.org/url-join not in flight; fetching
+476 silly resolveWithNewModule he@0.5.0 checking installable status
+477 silly cache add args [ 'he@^0.5.0', null ]
+478 verbose cache add spec he@^0.5.0
+479 silly cache add parsed spec Result {
+479 silly cache add   raw: 'he@^0.5.0',
+479 silly cache add   scope: null,
+479 silly cache add   escapedName: 'he',
+479 silly cache add   name: 'he',
+479 silly cache add   rawSpec: '^0.5.0',
+479 silly cache add   spec: '>=0.5.0 <0.6.0',
+479 silly cache add   type: 'range' }
+480 silly addNamed he@>=0.5.0 <0.6.0
+481 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for he
+482 silly addNameRange { name: 'he', range: '>=0.5.0 <0.6.0', hasData: false }
+483 silly mapToRegistry name he
+484 silly mapToRegistry using default registry
+485 silly mapToRegistry registry https://registry.npmjs.org/
+486 silly mapToRegistry data Result {
+486 silly mapToRegistry   raw: 'he',
+486 silly mapToRegistry   scope: null,
+486 silly mapToRegistry   escapedName: 'he',
+486 silly mapToRegistry   name: 'he',
+486 silly mapToRegistry   rawSpec: '',
+486 silly mapToRegistry   spec: 'latest',
+486 silly mapToRegistry   type: 'tag' }
+487 silly mapToRegistry uri https://registry.npmjs.org/he
+488 verbose addNameRange registry:https://registry.npmjs.org/he not in flight; fetching
+489 silly resolveWithNewModule minimist@1.2.0 checking installable status
+490 silly cache add args [ 'minimist@^1.1.0', null ]
+491 verbose cache add spec minimist@^1.1.0
+492 silly cache add parsed spec Result {
+492 silly cache add   raw: 'minimist@^1.1.0',
+492 silly cache add   scope: null,
+492 silly cache add   escapedName: 'minimist',
+492 silly cache add   name: 'minimist',
+492 silly cache add   rawSpec: '^1.1.0',
+492 silly cache add   spec: '>=1.1.0 <2.0.0',
+492 silly cache add   type: 'range' }
+493 silly addNamed minimist@>=1.1.0 <2.0.0
+494 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for minimist
+495 silly addNameRange { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: false }
+496 silly mapToRegistry name minimist
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npmjs.org/
+499 silly mapToRegistry data Result {
+499 silly mapToRegistry   raw: 'minimist',
+499 silly mapToRegistry   scope: null,
+499 silly mapToRegistry   escapedName: 'minimist',
+499 silly mapToRegistry   name: 'minimist',
+499 silly mapToRegistry   rawSpec: '',
+499 silly mapToRegistry   spec: 'latest',
+499 silly mapToRegistry   type: 'tag' }
+500 silly mapToRegistry uri https://registry.npmjs.org/minimist
+501 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+502 verbose get https://registry.npmjs.org/url-join not expired, no request
+503 silly addNameRange number 2 { name: 'url-join', range: '>=1.0.0 <2.0.0', hasData: true }
+504 silly addNameRange versions [ 'url-join', [ '0.0.1', '1.0.0', '1.1.0' ] ]
+505 silly addNamed url-join@1.1.0
+506 verbose addNamed "1.1.0" is a plain semver version for url-join
+507 verbose get https://registry.npmjs.org/he not expired, no request
+508 silly addNameRange number 2 { name: 'he', range: '>=0.5.0 <0.6.0', hasData: true }
+509 silly addNameRange versions [ 'he',
+509 silly addNameRange   [ '0.1.0',
+509 silly addNameRange     '0.1.1',
+509 silly addNameRange     '0.1.2',
+509 silly addNameRange     '0.1.3',
+509 silly addNameRange     '0.1.4',
+509 silly addNameRange     '0.1.5',
+509 silly addNameRange     '0.1.6',
+509 silly addNameRange     '0.1.7',
+509 silly addNameRange     '0.1.8',
+509 silly addNameRange     '0.1.9',
+509 silly addNameRange     '0.1.10',
+509 silly addNameRange     '0.2.0',
+509 silly addNameRange     '0.2.1',
+509 silly addNameRange     '0.3.0',
+509 silly addNameRange     '0.3.1',
+509 silly addNameRange     '0.3.2',
+509 silly addNameRange     '0.3.3',
+509 silly addNameRange     '0.3.4',
+509 silly addNameRange     '0.3.5',
+509 silly addNameRange     '0.3.6',
+509 silly addNameRange     '0.4.0',
+509 silly addNameRange     '0.4.1',
+509 silly addNameRange     '0.5.0',
+509 silly addNameRange     '1.0.0',
+509 silly addNameRange     '1.1.0' ] ]
+510 silly addNamed he@0.5.0
+511 verbose addNamed "0.5.0" is a plain semver version for he
+512 verbose get https://registry.npmjs.org/minimist not expired, no request
+513 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: true }
+514 silly addNameRange versions [ 'minimist',
+514 silly addNameRange   [ '0.0.0',
+514 silly addNameRange     '0.0.1',
+514 silly addNameRange     '0.0.2',
+514 silly addNameRange     '0.0.3',
+514 silly addNameRange     '0.0.4',
+514 silly addNameRange     '0.0.5',
+514 silly addNameRange     '0.0.6',
+514 silly addNameRange     '0.0.7',
+514 silly addNameRange     '0.0.8',
+514 silly addNameRange     '0.0.9',
+514 silly addNameRange     '0.0.10',
+514 silly addNameRange     '0.1.0',
+514 silly addNameRange     '0.2.0',
+514 silly addNameRange     '1.0.0',
+514 silly addNameRange     '1.1.0',
+514 silly addNameRange     '1.1.1',
+514 silly addNameRange     '1.1.2',
+514 silly addNameRange     '1.1.3',
+514 silly addNameRange     '1.2.0' ] ]
+515 silly addNamed minimist@1.2.0
+516 verbose addNamed "1.2.0" is a plain semver version for minimist
+517 silly cache afterAdd mime@1.3.4
+518 verbose afterAdd /home/vagrant/.npm/mime/1.3.4/package/package.json not in flight; writing
+519 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+520 verbose afterAdd /home/vagrant/.npm/mime/1.3.4/package/package.json written
+521 silly cache afterAdd url-join@1.1.0
+522 verbose afterAdd /home/vagrant/.npm/url-join/1.1.0/package/package.json not in flight; writing
+523 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+524 silly cache afterAdd he@0.5.0
+525 verbose afterAdd /home/vagrant/.npm/he/0.5.0/package/package.json not in flight; writing
+526 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+527 silly cache afterAdd minimist@1.2.0
+528 verbose afterAdd /home/vagrant/.npm/minimist/1.2.0/package/package.json not in flight; writing
+529 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+530 verbose afterAdd /home/vagrant/.npm/url-join/1.1.0/package/package.json written
+531 verbose afterAdd /home/vagrant/.npm/he/0.5.0/package/package.json written
+532 verbose afterAdd /home/vagrant/.npm/minimist/1.2.0/package/package.json written
+533 silly fetchNamedPackageData eventemitter3
+534 silly mapToRegistry name eventemitter3
+535 silly mapToRegistry using default registry
+536 silly mapToRegistry registry https://registry.npmjs.org/
+537 silly mapToRegistry data Result {
+537 silly mapToRegistry   raw: 'eventemitter3',
+537 silly mapToRegistry   scope: null,
+537 silly mapToRegistry   escapedName: 'eventemitter3',
+537 silly mapToRegistry   name: 'eventemitter3',
+537 silly mapToRegistry   rawSpec: '',
+537 silly mapToRegistry   spec: 'latest',
+537 silly mapToRegistry   type: 'tag' }
+538 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+539 silly fetchNamedPackageData requires-port
+540 silly mapToRegistry name requires-port
+541 silly mapToRegistry using default registry
+542 silly mapToRegistry registry https://registry.npmjs.org/
+543 silly mapToRegistry data Result {
+543 silly mapToRegistry   raw: 'requires-port',
+543 silly mapToRegistry   scope: null,
+543 silly mapToRegistry   escapedName: 'requires-port',
+543 silly mapToRegistry   name: 'requires-port',
+543 silly mapToRegistry   rawSpec: '',
+543 silly mapToRegistry   spec: 'latest',
+543 silly mapToRegistry   type: 'tag' }
+544 silly mapToRegistry uri https://registry.npmjs.org/requires-port
+545 verbose request uri https://registry.npmjs.org/eventemitter3
+546 verbose request no auth needed
+547 info attempt registry request try #1 at 9:42:35 AM
+548 verbose etag W/"581ff10c-7f8d"
+549 verbose lastModified Mon, 07 Nov 2016 03:12:12 GMT
+550 http request GET https://registry.npmjs.org/eventemitter3
+551 verbose request uri https://registry.npmjs.org/requires-port
+552 verbose request no auth needed
+553 info attempt registry request try #1 at 9:42:35 AM
+554 verbose etag W/"581ff3b5-1c40"
+555 verbose lastModified Mon, 07 Nov 2016 03:23:33 GMT
+556 http request GET https://registry.npmjs.org/requires-port
+557 http 304 https://registry.npmjs.org/requires-port
+558 verbose headers { date: 'Tue, 22 Nov 2016 09:42:35 GMT',
+558 verbose headers   via: '1.1 varnish',
+558 verbose headers   'cache-control': 'max-age=300',
+558 verbose headers   etag: 'W/"581ff3b5-1c40"',
+558 verbose headers   age: '250',
+558 verbose headers   connection: 'keep-alive',
+558 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+558 verbose headers   'x-cache': 'HIT',
+558 verbose headers   'x-cache-hits': '11',
+558 verbose headers   'x-timer': 'S1479807755.164451,VS0,VE0',
+558 verbose headers   vary: 'Accept-Encoding' }
+559 silly get cb [ 304,
+559 silly get   { date: 'Tue, 22 Nov 2016 09:42:35 GMT',
+559 silly get     via: '1.1 varnish',
+559 silly get     'cache-control': 'max-age=300',
+559 silly get     etag: 'W/"581ff3b5-1c40"',
+559 silly get     age: '250',
+559 silly get     connection: 'keep-alive',
+559 silly get     'x-served-by': 'cache-sin6924-SIN',
+559 silly get     'x-cache': 'HIT',
+559 silly get     'x-cache-hits': '11',
+559 silly get     'x-timer': 'S1479807755.164451,VS0,VE0',
+559 silly get     vary: 'Accept-Encoding' } ]
+560 verbose etag https://registry.npmjs.org/requires-port from cache
+561 verbose get saving requires-port to /home/vagrant/.npm/registry.npmjs.org/requires-port/.cache.json
+562 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+563 silly resolveWithNewModule requires-port@1.0.0 checking installable status
+564 silly cache add args [ 'requires-port@1.x.x', null ]
+565 verbose cache add spec requires-port@1.x.x
+566 silly cache add parsed spec Result {
+566 silly cache add   raw: 'requires-port@1.x.x',
+566 silly cache add   scope: null,
+566 silly cache add   escapedName: 'requires-port',
+566 silly cache add   name: 'requires-port',
+566 silly cache add   rawSpec: '1.x.x',
+566 silly cache add   spec: '>=1.0.0 <2.0.0',
+566 silly cache add   type: 'range' }
+567 silly addNamed requires-port@>=1.0.0 <2.0.0
+568 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for requires-port
+569 silly addNameRange { name: 'requires-port',
+569 silly addNameRange   range: '>=1.0.0 <2.0.0',
+569 silly addNameRange   hasData: false }
+570 silly mapToRegistry name requires-port
+571 silly mapToRegistry using default registry
+572 silly mapToRegistry registry https://registry.npmjs.org/
+573 silly mapToRegistry data Result {
+573 silly mapToRegistry   raw: 'requires-port',
+573 silly mapToRegistry   scope: null,
+573 silly mapToRegistry   escapedName: 'requires-port',
+573 silly mapToRegistry   name: 'requires-port',
+573 silly mapToRegistry   rawSpec: '',
+573 silly mapToRegistry   spec: 'latest',
+573 silly mapToRegistry   type: 'tag' }
+574 silly mapToRegistry uri https://registry.npmjs.org/requires-port
+575 verbose addNameRange registry:https://registry.npmjs.org/requires-port not in flight; fetching
+576 verbose get https://registry.npmjs.org/requires-port not expired, no request
+577 silly addNameRange number 2 { name: 'requires-port', range: '>=1.0.0 <2.0.0', hasData: true }
+578 silly addNameRange versions [ 'requires-port', [ '0.0.0', '0.0.1', '1.0.0' ] ]
+579 silly addNamed requires-port@1.0.0
+580 verbose addNamed "1.0.0" is a plain semver version for requires-port
+581 silly cache afterAdd requires-port@1.0.0
+582 verbose afterAdd /home/vagrant/.npm/requires-port/1.0.0/package/package.json not in flight; writing
+583 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+584 verbose afterAdd /home/vagrant/.npm/requires-port/1.0.0/package/package.json written
+585 http 304 https://registry.npmjs.org/eventemitter3
+586 verbose headers { date: 'Tue, 22 Nov 2016 09:42:35 GMT',
+586 verbose headers   via: '1.1 varnish',
+586 verbose headers   'cache-control': 'max-age=300',
+586 verbose headers   etag: 'W/"581ff10c-7f8d"',
+586 verbose headers   age: '40',
+586 verbose headers   connection: 'keep-alive',
+586 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+586 verbose headers   'x-cache': 'HIT',
+586 verbose headers   'x-cache-hits': '2',
+586 verbose headers   'x-timer': 'S1479807755.160783,VS0,VE0',
+586 verbose headers   vary: 'Accept-Encoding' }
+587 silly get cb [ 304,
+587 silly get   { date: 'Tue, 22 Nov 2016 09:42:35 GMT',
+587 silly get     via: '1.1 varnish',
+587 silly get     'cache-control': 'max-age=300',
+587 silly get     etag: 'W/"581ff10c-7f8d"',
+587 silly get     age: '40',
+587 silly get     connection: 'keep-alive',
+587 silly get     'x-served-by': 'cache-sin6920-SIN',
+587 silly get     'x-cache': 'HIT',
+587 silly get     'x-cache-hits': '2',
+587 silly get     'x-timer': 'S1479807755.160783,VS0,VE0',
+587 silly get     vary: 'Accept-Encoding' } ]
+588 verbose etag https://registry.npmjs.org/eventemitter3 from cache
+589 verbose get saving eventemitter3 to /home/vagrant/.npm/registry.npmjs.org/eventemitter3/.cache.json
+590 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+591 silly resolveWithNewModule eventemitter3@1.2.0 checking installable status
+592 silly cache add args [ 'eventemitter3@1.x.x', null ]
+593 verbose cache add spec eventemitter3@1.x.x
+594 silly cache add parsed spec Result {
+594 silly cache add   raw: 'eventemitter3@1.x.x',
+594 silly cache add   scope: null,
+594 silly cache add   escapedName: 'eventemitter3',
+594 silly cache add   name: 'eventemitter3',
+594 silly cache add   rawSpec: '1.x.x',
+594 silly cache add   spec: '>=1.0.0 <2.0.0',
+594 silly cache add   type: 'range' }
+595 silly addNamed eventemitter3@>=1.0.0 <2.0.0
+596 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for eventemitter3
+597 silly addNameRange { name: 'eventemitter3',
+597 silly addNameRange   range: '>=1.0.0 <2.0.0',
+597 silly addNameRange   hasData: false }
+598 silly mapToRegistry name eventemitter3
+599 silly mapToRegistry using default registry
+600 silly mapToRegistry registry https://registry.npmjs.org/
+601 silly mapToRegistry data Result {
+601 silly mapToRegistry   raw: 'eventemitter3',
+601 silly mapToRegistry   scope: null,
+601 silly mapToRegistry   escapedName: 'eventemitter3',
+601 silly mapToRegistry   name: 'eventemitter3',
+601 silly mapToRegistry   rawSpec: '',
+601 silly mapToRegistry   spec: 'latest',
+601 silly mapToRegistry   type: 'tag' }
+602 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+603 verbose addNameRange registry:https://registry.npmjs.org/eventemitter3 not in flight; fetching
+604 verbose get https://registry.npmjs.org/eventemitter3 not expired, no request
+605 silly addNameRange number 2 { name: 'eventemitter3', range: '>=1.0.0 <2.0.0', hasData: true }
+606 silly addNameRange versions [ 'eventemitter3',
+606 silly addNameRange   [ '0.0.0',
+606 silly addNameRange     '0.0.1',
+606 silly addNameRange     '0.1.0',
+606 silly addNameRange     '0.1.1',
+606 silly addNameRange     '0.1.2',
+606 silly addNameRange     '0.1.3',
+606 silly addNameRange     '0.1.4',
+606 silly addNameRange     '0.1.5',
+606 silly addNameRange     '0.1.6',
+606 silly addNameRange     '1.0.0',
+606 silly addNameRange     '1.0.1',
+606 silly addNameRange     '1.0.2',
+606 silly addNameRange     '1.0.3',
+606 silly addNameRange     '1.1.0',
+606 silly addNameRange     '1.1.1',
+606 silly addNameRange     '1.2.0',
+606 silly addNameRange     '2.0.0',
+606 silly addNameRange     '2.0.1',
+606 silly addNameRange     '2.0.2' ] ]
+607 silly addNamed eventemitter3@1.2.0
+608 verbose addNamed "1.2.0" is a plain semver version for eventemitter3
+609 silly cache afterAdd eventemitter3@1.2.0
+610 verbose afterAdd /home/vagrant/.npm/eventemitter3/1.2.0/package/package.json not in flight; writing
+611 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+612 verbose afterAdd /home/vagrant/.npm/eventemitter3/1.2.0/package/package.json written
+613 silly fetchNamedPackageData wordwrap
+614 silly mapToRegistry name wordwrap
+615 silly mapToRegistry using default registry
+616 silly mapToRegistry registry https://registry.npmjs.org/
+617 silly mapToRegistry data Result {
+617 silly mapToRegistry   raw: 'wordwrap',
+617 silly mapToRegistry   scope: null,
+617 silly mapToRegistry   escapedName: 'wordwrap',
+617 silly mapToRegistry   name: 'wordwrap',
+617 silly mapToRegistry   rawSpec: '',
+617 silly mapToRegistry   spec: 'latest',
+617 silly mapToRegistry   type: 'tag' }
+618 silly mapToRegistry uri https://registry.npmjs.org/wordwrap
+619 silly fetchNamedPackageData minimist
+620 silly mapToRegistry name minimist
+621 silly mapToRegistry using default registry
+622 silly mapToRegistry registry https://registry.npmjs.org/
+623 silly mapToRegistry data Result {
+623 silly mapToRegistry   raw: 'minimist',
+623 silly mapToRegistry   scope: null,
+623 silly mapToRegistry   escapedName: 'minimist',
+623 silly mapToRegistry   name: 'minimist',
+623 silly mapToRegistry   rawSpec: '',
+623 silly mapToRegistry   spec: 'latest',
+623 silly mapToRegistry   type: 'tag' }
+624 silly mapToRegistry uri https://registry.npmjs.org/minimist
+625 silly resolveWithNewModule minimist@0.0.10 checking installable status
+626 silly cache add args [ 'minimist@~0.0.1', null ]
+627 verbose cache add spec minimist@~0.0.1
+628 silly cache add parsed spec Result {
+628 silly cache add   raw: 'minimist@~0.0.1',
+628 silly cache add   scope: null,
+628 silly cache add   escapedName: 'minimist',
+628 silly cache add   name: 'minimist',
+628 silly cache add   rawSpec: '~0.0.1',
+628 silly cache add   spec: '>=0.0.1 <0.1.0',
+628 silly cache add   type: 'range' }
+629 silly addNamed minimist@>=0.0.1 <0.1.0
+630 verbose addNamed ">=0.0.1 <0.1.0" is a valid semver range for minimist
+631 silly addNameRange { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: false }
+632 silly mapToRegistry name minimist
+633 silly mapToRegistry using default registry
+634 silly mapToRegistry registry https://registry.npmjs.org/
+635 silly mapToRegistry data Result {
+635 silly mapToRegistry   raw: 'minimist',
+635 silly mapToRegistry   scope: null,
+635 silly mapToRegistry   escapedName: 'minimist',
+635 silly mapToRegistry   name: 'minimist',
+635 silly mapToRegistry   rawSpec: '',
+635 silly mapToRegistry   spec: 'latest',
+635 silly mapToRegistry   type: 'tag' }
+636 silly mapToRegistry uri https://registry.npmjs.org/minimist
+637 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+638 verbose get https://registry.npmjs.org/minimist not expired, no request
+639 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: true }
+640 silly addNameRange versions [ 'minimist',
+640 silly addNameRange   [ '0.0.0',
+640 silly addNameRange     '0.0.1',
+640 silly addNameRange     '0.0.2',
+640 silly addNameRange     '0.0.3',
+640 silly addNameRange     '0.0.4',
+640 silly addNameRange     '0.0.5',
+640 silly addNameRange     '0.0.6',
+640 silly addNameRange     '0.0.7',
+640 silly addNameRange     '0.0.8',
+640 silly addNameRange     '0.0.9',
+640 silly addNameRange     '0.0.10',
+640 silly addNameRange     '0.1.0',
+640 silly addNameRange     '0.2.0',
+640 silly addNameRange     '1.0.0',
+640 silly addNameRange     '1.1.0',
+640 silly addNameRange     '1.1.1',
+640 silly addNameRange     '1.1.2',
+640 silly addNameRange     '1.1.3',
+640 silly addNameRange     '1.2.0' ] ]
+641 silly addNamed minimist@0.0.10
+642 verbose addNamed "0.0.10" is a plain semver version for minimist
+643 verbose request uri https://registry.npmjs.org/wordwrap
+644 verbose request no auth needed
+645 info attempt registry request try #1 at 9:42:36 AM
+646 verbose etag W/"5818e589-1acd"
+647 verbose lastModified Tue, 01 Nov 2016 18:57:13 GMT
+648 http request GET https://registry.npmjs.org/wordwrap
+649 silly cache afterAdd minimist@0.0.10
+650 verbose afterAdd /home/vagrant/.npm/minimist/0.0.10/package/package.json not in flight; writing
+651 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+652 verbose afterAdd /home/vagrant/.npm/minimist/0.0.10/package/package.json written
+653 http 304 https://registry.npmjs.org/wordwrap
+654 verbose headers { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+654 verbose headers   via: '1.1 varnish',
+654 verbose headers   'cache-control': 'max-age=300',
+654 verbose headers   etag: 'W/"5818e589-1acd"',
+654 verbose headers   age: '146',
+654 verbose headers   connection: 'keep-alive',
+654 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+654 verbose headers   'x-cache': 'HIT',
+654 verbose headers   'x-cache-hits': '26',
+654 verbose headers   'x-timer': 'S1479807756.288191,VS0,VE0',
+654 verbose headers   vary: 'Accept-Encoding' }
+655 silly get cb [ 304,
+655 silly get   { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+655 silly get     via: '1.1 varnish',
+655 silly get     'cache-control': 'max-age=300',
+655 silly get     etag: 'W/"5818e589-1acd"',
+655 silly get     age: '146',
+655 silly get     connection: 'keep-alive',
+655 silly get     'x-served-by': 'cache-sin6925-SIN',
+655 silly get     'x-cache': 'HIT',
+655 silly get     'x-cache-hits': '26',
+655 silly get     'x-timer': 'S1479807756.288191,VS0,VE0',
+655 silly get     vary: 'Accept-Encoding' } ]
+656 verbose etag https://registry.npmjs.org/wordwrap from cache
+657 verbose get saving wordwrap to /home/vagrant/.npm/registry.npmjs.org/wordwrap/.cache.json
+658 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+659 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+660 silly cache add args [ 'wordwrap@~0.0.2', null ]
+661 verbose cache add spec wordwrap@~0.0.2
+662 silly cache add parsed spec Result {
+662 silly cache add   raw: 'wordwrap@~0.0.2',
+662 silly cache add   scope: null,
+662 silly cache add   escapedName: 'wordwrap',
+662 silly cache add   name: 'wordwrap',
+662 silly cache add   rawSpec: '~0.0.2',
+662 silly cache add   spec: '>=0.0.2 <0.1.0',
+662 silly cache add   type: 'range' }
+663 silly addNamed wordwrap@>=0.0.2 <0.1.0
+664 verbose addNamed ">=0.0.2 <0.1.0" is a valid semver range for wordwrap
+665 silly addNameRange { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: false }
+666 silly mapToRegistry name wordwrap
+667 silly mapToRegistry using default registry
+668 silly mapToRegistry registry https://registry.npmjs.org/
+669 silly mapToRegistry data Result {
+669 silly mapToRegistry   raw: 'wordwrap',
+669 silly mapToRegistry   scope: null,
+669 silly mapToRegistry   escapedName: 'wordwrap',
+669 silly mapToRegistry   name: 'wordwrap',
+669 silly mapToRegistry   rawSpec: '',
+669 silly mapToRegistry   spec: 'latest',
+669 silly mapToRegistry   type: 'tag' }
+670 silly mapToRegistry uri https://registry.npmjs.org/wordwrap
+671 verbose addNameRange registry:https://registry.npmjs.org/wordwrap not in flight; fetching
+672 verbose get https://registry.npmjs.org/wordwrap not expired, no request
+673 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: true }
+674 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+675 silly addNamed wordwrap@0.0.3
+676 verbose addNamed "0.0.3" is a plain semver version for wordwrap
+677 silly cache afterAdd wordwrap@0.0.3
+678 verbose afterAdd /home/vagrant/.npm/wordwrap/0.0.3/package/package.json not in flight; writing
+679 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+680 verbose afterAdd /home/vagrant/.npm/wordwrap/0.0.3/package/package.json written
+681 silly fetchNamedPackageData async
+682 silly mapToRegistry name async
+683 silly mapToRegistry using default registry
+684 silly mapToRegistry registry https://registry.npmjs.org/
+685 silly mapToRegistry data Result {
+685 silly mapToRegistry   raw: 'async',
+685 silly mapToRegistry   scope: null,
+685 silly mapToRegistry   escapedName: 'async',
+685 silly mapToRegistry   name: 'async',
+685 silly mapToRegistry   rawSpec: '',
+685 silly mapToRegistry   spec: 'latest',
+685 silly mapToRegistry   type: 'tag' }
+686 silly mapToRegistry uri https://registry.npmjs.org/async
+687 silly fetchNamedPackageData mkdirp
+688 silly mapToRegistry name mkdirp
+689 silly mapToRegistry using default registry
+690 silly mapToRegistry registry https://registry.npmjs.org/
+691 silly mapToRegistry data Result {
+691 silly mapToRegistry   raw: 'mkdirp',
+691 silly mapToRegistry   scope: null,
+691 silly mapToRegistry   escapedName: 'mkdirp',
+691 silly mapToRegistry   name: 'mkdirp',
+691 silly mapToRegistry   rawSpec: '',
+691 silly mapToRegistry   spec: 'latest',
+691 silly mapToRegistry   type: 'tag' }
+692 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+693 verbose request uri https://registry.npmjs.org/async
+694 verbose request no auth needed
+695 info attempt registry request try #1 at 9:42:36 AM
+696 verbose etag W/"5832adf6-1c66e"
+697 verbose lastModified Mon, 21 Nov 2016 08:19:02 GMT
+698 http request GET https://registry.npmjs.org/async
+699 verbose request uri https://registry.npmjs.org/mkdirp
+700 verbose request no auth needed
+701 info attempt registry request try #1 at 9:42:36 AM
+702 verbose etag W/"582dbdfb-6068"
+703 verbose lastModified Thu, 17 Nov 2016 14:26:03 GMT
+704 http request GET https://registry.npmjs.org/mkdirp
+705 http 304 https://registry.npmjs.org/async
+706 verbose headers { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+706 verbose headers   via: '1.1 varnish',
+706 verbose headers   'cache-control': 'max-age=300',
+706 verbose headers   etag: 'W/"5832adf6-1c66e"',
+706 verbose headers   age: '9',
+706 verbose headers   connection: 'keep-alive',
+706 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+706 verbose headers   'x-cache': 'HIT',
+706 verbose headers   'x-cache-hits': '2',
+706 verbose headers   'x-timer': 'S1479807756.585151,VS0,VE0',
+706 verbose headers   vary: 'Accept-Encoding' }
+707 silly get cb [ 304,
+707 silly get   { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+707 silly get     via: '1.1 varnish',
+707 silly get     'cache-control': 'max-age=300',
+707 silly get     etag: 'W/"5832adf6-1c66e"',
+707 silly get     age: '9',
+707 silly get     connection: 'keep-alive',
+707 silly get     'x-served-by': 'cache-sin6926-SIN',
+707 silly get     'x-cache': 'HIT',
+707 silly get     'x-cache-hits': '2',
+707 silly get     'x-timer': 'S1479807756.585151,VS0,VE0',
+707 silly get     vary: 'Accept-Encoding' } ]
+708 verbose etag https://registry.npmjs.org/async from cache
+709 verbose get saving async to /home/vagrant/.npm/registry.npmjs.org/async/.cache.json
+710 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+711 http 304 https://registry.npmjs.org/mkdirp
+712 verbose headers { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+712 verbose headers   via: '1.1 varnish',
+712 verbose headers   'cache-control': 'max-age=300',
+712 verbose headers   etag: 'W/"582dbdfb-6068"',
+712 verbose headers   age: '138',
+712 verbose headers   connection: 'keep-alive',
+712 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+712 verbose headers   'x-cache': 'HIT',
+712 verbose headers   'x-cache-hits': '31',
+712 verbose headers   'x-timer': 'S1479807756.599556,VS0,VE0',
+712 verbose headers   vary: 'Accept-Encoding' }
+713 silly get cb [ 304,
+713 silly get   { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+713 silly get     via: '1.1 varnish',
+713 silly get     'cache-control': 'max-age=300',
+713 silly get     etag: 'W/"582dbdfb-6068"',
+713 silly get     age: '138',
+713 silly get     connection: 'keep-alive',
+713 silly get     'x-served-by': 'cache-sin6925-SIN',
+713 silly get     'x-cache': 'HIT',
+713 silly get     'x-cache-hits': '31',
+713 silly get     'x-timer': 'S1479807756.599556,VS0,VE0',
+713 silly get     vary: 'Accept-Encoding' } ]
+714 verbose etag https://registry.npmjs.org/mkdirp from cache
+715 verbose get saving mkdirp to /home/vagrant/.npm/registry.npmjs.org/mkdirp/.cache.json
+716 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+717 silly resolveWithNewModule async@0.9.0 checking installable status
+718 silly cache add args [ 'async@0.9.0', null ]
+719 verbose cache add spec async@0.9.0
+720 silly cache add parsed spec Result {
+720 silly cache add   raw: 'async@0.9.0',
+720 silly cache add   scope: null,
+720 silly cache add   escapedName: 'async',
+720 silly cache add   name: 'async',
+720 silly cache add   rawSpec: '0.9.0',
+720 silly cache add   spec: '0.9.0',
+720 silly cache add   type: 'version' }
+721 silly addNamed async@0.9.0
+722 verbose addNamed "0.9.0" is a plain semver version for async
+723 silly mapToRegistry name async
+724 silly mapToRegistry using default registry
+725 silly mapToRegistry registry https://registry.npmjs.org/
+726 silly mapToRegistry data Result {
+726 silly mapToRegistry   raw: 'async',
+726 silly mapToRegistry   scope: null,
+726 silly mapToRegistry   escapedName: 'async',
+726 silly mapToRegistry   name: 'async',
+726 silly mapToRegistry   rawSpec: '',
+726 silly mapToRegistry   spec: 'latest',
+726 silly mapToRegistry   type: 'tag' }
+727 silly mapToRegistry uri https://registry.npmjs.org/async
+728 verbose addNameVersion registry:https://registry.npmjs.org/async not in flight; fetching
+729 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+730 silly cache add args [ 'mkdirp@0.5.x', null ]
+731 verbose cache add spec mkdirp@0.5.x
+732 silly cache add parsed spec Result {
+732 silly cache add   raw: 'mkdirp@0.5.x',
+732 silly cache add   scope: null,
+732 silly cache add   escapedName: 'mkdirp',
+732 silly cache add   name: 'mkdirp',
+732 silly cache add   rawSpec: '0.5.x',
+732 silly cache add   spec: '>=0.5.0 <0.6.0',
+732 silly cache add   type: 'range' }
+733 silly addNamed mkdirp@>=0.5.0 <0.6.0
+734 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for mkdirp
+735 silly addNameRange { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: false }
+736 silly mapToRegistry name mkdirp
+737 silly mapToRegistry using default registry
+738 silly mapToRegistry registry https://registry.npmjs.org/
+739 silly mapToRegistry data Result {
+739 silly mapToRegistry   raw: 'mkdirp',
+739 silly mapToRegistry   scope: null,
+739 silly mapToRegistry   escapedName: 'mkdirp',
+739 silly mapToRegistry   name: 'mkdirp',
+739 silly mapToRegistry   rawSpec: '',
+739 silly mapToRegistry   spec: 'latest',
+739 silly mapToRegistry   type: 'tag' }
+740 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+741 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+742 verbose get https://registry.npmjs.org/async not expired, no request
+743 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+744 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0 <0.6.0', hasData: true }
+745 silly addNameRange versions [ 'mkdirp',
+745 silly addNameRange   [ '0.0.1',
+745 silly addNameRange     '0.0.2',
+745 silly addNameRange     '0.0.3',
+745 silly addNameRange     '0.0.4',
+745 silly addNameRange     '0.0.5',
+745 silly addNameRange     '0.0.6',
+745 silly addNameRange     '0.0.7',
+745 silly addNameRange     '0.1.0',
+745 silly addNameRange     '0.2.0',
+745 silly addNameRange     '0.2.1',
+745 silly addNameRange     '0.2.2',
+745 silly addNameRange     '0.3.0',
+745 silly addNameRange     '0.3.1',
+745 silly addNameRange     '0.3.2',
+745 silly addNameRange     '0.3.3',
+745 silly addNameRange     '0.3.4',
+745 silly addNameRange     '0.3.5',
+745 silly addNameRange     '0.4.0',
+745 silly addNameRange     '0.4.1',
+745 silly addNameRange     '0.4.2',
+745 silly addNameRange     '0.5.0',
+745 silly addNameRange     '0.5.1' ] ]
+746 silly addNamed mkdirp@0.5.1
+747 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+748 silly cache afterAdd async@0.9.0
+749 verbose afterAdd /home/vagrant/.npm/async/0.9.0/package/package.json not in flight; writing
+750 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+751 silly cache afterAdd mkdirp@0.5.1
+752 verbose afterAdd /home/vagrant/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+753 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+754 verbose afterAdd /home/vagrant/.npm/async/0.9.0/package/package.json written
+755 verbose afterAdd /home/vagrant/.npm/mkdirp/0.5.1/package/package.json written
+756 silly fetchNamedPackageData minimist
+757 silly mapToRegistry name minimist
+758 silly mapToRegistry using default registry
+759 silly mapToRegistry registry https://registry.npmjs.org/
+760 silly mapToRegistry data Result {
+760 silly mapToRegistry   raw: 'minimist',
+760 silly mapToRegistry   scope: null,
+760 silly mapToRegistry   escapedName: 'minimist',
+760 silly mapToRegistry   name: 'minimist',
+760 silly mapToRegistry   rawSpec: '',
+760 silly mapToRegistry   spec: 'latest',
+760 silly mapToRegistry   type: 'tag' }
+761 silly mapToRegistry uri https://registry.npmjs.org/minimist
+762 silly resolveWithNewModule minimist@0.0.8 checking installable status
+763 silly cache add args [ 'minimist@0.0.8', null ]
+764 verbose cache add spec minimist@0.0.8
+765 silly cache add parsed spec Result {
+765 silly cache add   raw: 'minimist@0.0.8',
+765 silly cache add   scope: null,
+765 silly cache add   escapedName: 'minimist',
+765 silly cache add   name: 'minimist',
+765 silly cache add   rawSpec: '0.0.8',
+765 silly cache add   spec: '0.0.8',
+765 silly cache add   type: 'version' }
+766 silly addNamed minimist@0.0.8
+767 verbose addNamed "0.0.8" is a plain semver version for minimist
+768 silly mapToRegistry name minimist
+769 silly mapToRegistry using default registry
+770 silly mapToRegistry registry https://registry.npmjs.org/
+771 silly mapToRegistry data Result {
+771 silly mapToRegistry   raw: 'minimist',
+771 silly mapToRegistry   scope: null,
+771 silly mapToRegistry   escapedName: 'minimist',
+771 silly mapToRegistry   name: 'minimist',
+771 silly mapToRegistry   rawSpec: '',
+771 silly mapToRegistry   spec: 'latest',
+771 silly mapToRegistry   type: 'tag' }
+772 silly mapToRegistry uri https://registry.npmjs.org/minimist
+773 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+774 verbose get https://registry.npmjs.org/minimist not expired, no request
+775 silly cache afterAdd minimist@0.0.8
+776 verbose afterAdd /home/vagrant/.npm/minimist/0.0.8/package/package.json not in flight; writing
+777 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+778 verbose afterAdd /home/vagrant/.npm/minimist/0.0.8/package/package.json written
+779 silly fetchNamedPackageData qs
+780 silly mapToRegistry name qs
+781 silly mapToRegistry using default registry
+782 silly mapToRegistry registry https://registry.npmjs.org/
+783 silly mapToRegistry data Result {
+783 silly mapToRegistry   raw: 'qs',
+783 silly mapToRegistry   scope: null,
+783 silly mapToRegistry   escapedName: 'qs',
+783 silly mapToRegistry   name: 'qs',
+783 silly mapToRegistry   rawSpec: '',
+783 silly mapToRegistry   spec: 'latest',
+783 silly mapToRegistry   type: 'tag' }
+784 silly mapToRegistry uri https://registry.npmjs.org/qs
+785 verbose request uri https://registry.npmjs.org/qs
+786 verbose request no auth needed
+787 info attempt registry request try #1 at 9:42:36 AM
+788 verbose etag W/"5825bea0-1348e"
+789 verbose lastModified Fri, 11 Nov 2016 12:50:40 GMT
+790 http request GET https://registry.npmjs.org/qs
+791 http 304 https://registry.npmjs.org/qs
+792 verbose headers { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+792 verbose headers   via: '1.1 varnish',
+792 verbose headers   'cache-control': 'max-age=300',
+792 verbose headers   etag: 'W/"5825bea0-1348e"',
+792 verbose headers   age: '114',
+792 verbose headers   connection: 'keep-alive',
+792 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+792 verbose headers   'x-cache': 'HIT',
+792 verbose headers   'x-cache-hits': '36',
+792 verbose headers   'x-timer': 'S1479807756.931991,VS0,VE0',
+792 verbose headers   vary: 'Accept-Encoding' }
+793 silly get cb [ 304,
+793 silly get   { date: 'Tue, 22 Nov 2016 09:42:36 GMT',
+793 silly get     via: '1.1 varnish',
+793 silly get     'cache-control': 'max-age=300',
+793 silly get     etag: 'W/"5825bea0-1348e"',
+793 silly get     age: '114',
+793 silly get     connection: 'keep-alive',
+793 silly get     'x-served-by': 'cache-sin6927-SIN',
+793 silly get     'x-cache': 'HIT',
+793 silly get     'x-cache-hits': '36',
+793 silly get     'x-timer': 'S1479807756.931991,VS0,VE0',
+793 silly get     vary: 'Accept-Encoding' } ]
+794 verbose etag https://registry.npmjs.org/qs from cache
+795 verbose get saving qs to /home/vagrant/.npm/registry.npmjs.org/qs/.cache.json
+796 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+797 silly resolveWithNewModule qs@2.3.3 checking installable status
+798 silly cache add args [ 'qs@~2.3.3', null ]
+799 verbose cache add spec qs@~2.3.3
+800 silly cache add parsed spec Result {
+800 silly cache add   raw: 'qs@~2.3.3',
+800 silly cache add   scope: null,
+800 silly cache add   escapedName: 'qs',
+800 silly cache add   name: 'qs',
+800 silly cache add   rawSpec: '~2.3.3',
+800 silly cache add   spec: '>=2.3.3 <2.4.0',
+800 silly cache add   type: 'range' }
+801 silly addNamed qs@>=2.3.3 <2.4.0
+802 verbose addNamed ">=2.3.3 <2.4.0" is a valid semver range for qs
+803 silly addNameRange { name: 'qs', range: '>=2.3.3 <2.4.0', hasData: false }
+804 silly mapToRegistry name qs
+805 silly mapToRegistry using default registry
+806 silly mapToRegistry registry https://registry.npmjs.org/
+807 silly mapToRegistry data Result {
+807 silly mapToRegistry   raw: 'qs',
+807 silly mapToRegistry   scope: null,
+807 silly mapToRegistry   escapedName: 'qs',
+807 silly mapToRegistry   name: 'qs',
+807 silly mapToRegistry   rawSpec: '',
+807 silly mapToRegistry   spec: 'latest',
+807 silly mapToRegistry   type: 'tag' }
+808 silly mapToRegistry uri https://registry.npmjs.org/qs
+809 verbose addNameRange registry:https://registry.npmjs.org/qs not in flight; fetching
+810 verbose get https://registry.npmjs.org/qs not expired, no request
+811 silly addNameRange number 2 { name: 'qs', range: '>=2.3.3 <2.4.0', hasData: true }
+812 silly addNameRange versions [ 'qs',
+812 silly addNameRange   [ '0.0.1',
+812 silly addNameRange     '0.0.2',
+812 silly addNameRange     '0.0.3',
+812 silly addNameRange     '0.0.4',
+812 silly addNameRange     '0.0.5',
+812 silly addNameRange     '0.0.6',
+812 silly addNameRange     '0.0.7',
+812 silly addNameRange     '0.1.0',
+812 silly addNameRange     '0.2.0',
+812 silly addNameRange     '0.3.0',
+812 silly addNameRange     '0.3.1',
+812 silly addNameRange     '0.3.2',
+812 silly addNameRange     '0.4.0',
+812 silly addNameRange     '0.4.1',
+812 silly addNameRange     '0.4.2',
+812 silly addNameRange     '0.5.0',
+812 silly addNameRange     '0.5.1',
+812 silly addNameRange     '0.5.2',
+812 silly addNameRange     '0.5.3',
+812 silly addNameRange     '0.5.4',
+812 silly addNameRange     '0.5.5',
+812 silly addNameRange     '0.5.6',
+812 silly addNameRange     '0.6.0',
+812 silly addNameRange     '0.6.1',
+812 silly addNameRange     '0.6.2',
+812 silly addNameRange     '0.6.3',
+812 silly addNameRange     '0.6.4',
+812 silly addNameRange     '0.6.5',
+812 silly addNameRange     '0.6.6',
+812 silly addNameRange     '1.0.0',
+812 silly addNameRange     '1.0.1',
+812 silly addNameRange     '1.0.2',
+812 silly addNameRange     '1.1.0',
+812 silly addNameRange     '1.2.0',
+812 silly addNameRange     '1.2.1',
+812 silly addNameRange     '1.2.2',
+812 silly addNameRange     '2.0.0',
+812 silly addNameRange     '2.1.0',
+812 silly addNameRange     '2.2.0',
+812 silly addNameRange     '2.2.1',
+812 silly addNameRange     '2.2.2',
+812 silly addNameRange     '2.2.3',
+812 silly addNameRange     '2.2.4',
+812 silly addNameRange     '2.2.5',
+812 silly addNameRange     '2.3.0',
+812 silly addNameRange     '2.3.1',
+812 silly addNameRange     '2.3.2',
+812 silly addNameRange     '2.3.3',
+812 silly addNameRange     '2.4.0',
+812 silly addNameRange     '2.4.1',
+812 silly addNameRange     '2.4.2',
+812 silly addNameRange     '3.0.0',
+812 silly addNameRange     '3.1.0',
+812 silly addNameRange     '4.0.0',
+812 silly addNameRange     '5.0.0',
+812 silly addNameRange     '5.1.0',
+812 silly addNameRange     '5.2.0',
+812 silly addNameRange     '6.0.0',
+812 silly addNameRange     '6.0.1',
+812 silly addNameRange     '6.0.2',
+812 silly addNameRange     '6.1.0',
+812 silly addNameRange     '6.2.0',
+812 silly addNameRange     '5.2.1',
+812 silly addNameRange     '6.2.1',
+812 silly addNameRange     '6.3.0' ] ]
+813 silly addNamed qs@2.3.3
+814 verbose addNamed "2.3.3" is a plain semver version for qs
+815 silly cache afterAdd qs@2.3.3
+816 verbose afterAdd /home/vagrant/.npm/qs/2.3.3/package/package.json not in flight; writing
+817 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+818 verbose afterAdd /home/vagrant/.npm/qs/2.3.3/package/package.json written
+819 silly loadAllDepsIntoIdealTree Finishing
+820 silly loadIdealTree Finishing
+821 silly currentTree projecthtml
+822 silly idealTree projecthtml
+822 silly idealTree +-- async@0.9.0
+822 silly idealTree +-- colors@1.0.3
+822 silly idealTree +-- corser@2.0.1
+822 silly idealTree +-- ecstatic@1.4.1
+822 silly idealTree +-- eventemitter3@1.2.0
+822 silly idealTree +-- he@0.5.0
+822 silly idealTree +-- http-proxy@1.15.2
+822 silly idealTree +-- http-server@0.9.0
+822 silly idealTree +-- mime@1.3.4
+822 silly idealTree +-- minimist@1.2.0
+822 silly idealTree +-- mkdirp@0.5.1
+822 silly idealTree | `-- minimist@0.0.8
+822 silly idealTree +-- opener@1.4.2
+822 silly idealTree +-- optimist@0.6.1
+822 silly idealTree | `-- minimist@0.0.10
+822 silly idealTree +-- portfinder@0.4.0
+822 silly idealTree +-- qs@2.3.3
+822 silly idealTree +-- requires-port@1.0.0
+822 silly idealTree +-- union@0.4.6
+822 silly idealTree +-- url-join@1.1.0
+822 silly idealTree `-- wordwrap@0.0.3
+823 silly generateActionsToTake Starting
+824 silly install generateActionsToTake
+825 silly generateActionsToTake Finishing
+826 silly diffTrees action count 21
+827 silly diffTrees add async@0.9.0
+828 silly diffTrees add eventemitter3@1.2.0
+829 silly diffTrees add he@0.5.0
+830 silly diffTrees add mime@1.3.4
+831 silly diffTrees add minimist@1.2.0
+832 silly diffTrees add minimist@0.0.8
+833 silly diffTrees add mkdirp@0.5.1
+834 silly diffTrees add minimist@0.0.10
+835 silly diffTrees add qs@2.3.3
+836 silly diffTrees add requires-port@1.0.0
+837 silly diffTrees add url-join@1.1.0
+838 silly diffTrees add wordwrap@0.0.3
+839 silly diffTrees add colors@1.0.3
+840 silly diffTrees add corser@2.0.1
+841 silly diffTrees add ecstatic@1.4.1
+842 silly diffTrees add http-proxy@1.15.2
+843 silly diffTrees add opener@1.4.2
+844 silly diffTrees add optimist@0.6.1
+845 silly diffTrees add portfinder@0.4.0
+846 silly diffTrees add union@0.4.6
+847 silly diffTrees add http-server@0.9.0
+848 silly decomposeActions action count 168
+849 silly decomposeActions fetch async@0.9.0
+850 silly decomposeActions extract async@0.9.0
+851 silly decomposeActions test async@0.9.0
+852 silly decomposeActions preinstall async@0.9.0
+853 silly decomposeActions build async@0.9.0
+854 silly decomposeActions install async@0.9.0
+855 silly decomposeActions postinstall async@0.9.0
+856 silly decomposeActions finalize async@0.9.0
+857 silly decomposeActions fetch eventemitter3@1.2.0
+858 silly decomposeActions extract eventemitter3@1.2.0
+859 silly decomposeActions test eventemitter3@1.2.0
+860 silly decomposeActions preinstall eventemitter3@1.2.0
+861 silly decomposeActions build eventemitter3@1.2.0
+862 silly decomposeActions install eventemitter3@1.2.0
+863 silly decomposeActions postinstall eventemitter3@1.2.0
+864 silly decomposeActions finalize eventemitter3@1.2.0
+865 silly decomposeActions fetch he@0.5.0
+866 silly decomposeActions extract he@0.5.0
+867 silly decomposeActions test he@0.5.0
+868 silly decomposeActions preinstall he@0.5.0
+869 silly decomposeActions build he@0.5.0
+870 silly decomposeActions install he@0.5.0
+871 silly decomposeActions postinstall he@0.5.0
+872 silly decomposeActions finalize he@0.5.0
+873 silly decomposeActions fetch mime@1.3.4
+874 silly decomposeActions extract mime@1.3.4
+875 silly decomposeActions test mime@1.3.4
+876 silly decomposeActions preinstall mime@1.3.4
+877 silly decomposeActions build mime@1.3.4
+878 silly decomposeActions install mime@1.3.4
+879 silly decomposeActions postinstall mime@1.3.4
+880 silly decomposeActions finalize mime@1.3.4
+881 silly decomposeActions fetch minimist@1.2.0
+882 silly decomposeActions extract minimist@1.2.0
+883 silly decomposeActions test minimist@1.2.0
+884 silly decomposeActions preinstall minimist@1.2.0
+885 silly decomposeActions build minimist@1.2.0
+886 silly decomposeActions install minimist@1.2.0
+887 silly decomposeActions postinstall minimist@1.2.0
+888 silly decomposeActions finalize minimist@1.2.0
+889 silly decomposeActions fetch minimist@0.0.8
+890 silly decomposeActions extract minimist@0.0.8
+891 silly decomposeActions test minimist@0.0.8
+892 silly decomposeActions preinstall minimist@0.0.8
+893 silly decomposeActions build minimist@0.0.8
+894 silly decomposeActions install minimist@0.0.8
+895 silly decomposeActions postinstall minimist@0.0.8
+896 silly decomposeActions finalize minimist@0.0.8
+897 silly decomposeActions fetch mkdirp@0.5.1
+898 silly decomposeActions extract mkdirp@0.5.1
+899 silly decomposeActions test mkdirp@0.5.1
+900 silly decomposeActions preinstall mkdirp@0.5.1
+901 silly decomposeActions build mkdirp@0.5.1
+902 silly decomposeActions install mkdirp@0.5.1
+903 silly decomposeActions postinstall mkdirp@0.5.1
+904 silly decomposeActions finalize mkdirp@0.5.1
+905 silly decomposeActions fetch minimist@0.0.10
+906 silly decomposeActions extract minimist@0.0.10
+907 silly decomposeActions test minimist@0.0.10
+908 silly decomposeActions preinstall minimist@0.0.10
+909 silly decomposeActions build minimist@0.0.10
+910 silly decomposeActions install minimist@0.0.10
+911 silly decomposeActions postinstall minimist@0.0.10
+912 silly decomposeActions finalize minimist@0.0.10
+913 silly decomposeActions fetch qs@2.3.3
+914 silly decomposeActions extract qs@2.3.3
+915 silly decomposeActions test qs@2.3.3
+916 silly decomposeActions preinstall qs@2.3.3
+917 silly decomposeActions build qs@2.3.3
+918 silly decomposeActions install qs@2.3.3
+919 silly decomposeActions postinstall qs@2.3.3
+920 silly decomposeActions finalize qs@2.3.3
+921 silly decomposeActions fetch requires-port@1.0.0
+922 silly decomposeActions extract requires-port@1.0.0
+923 silly decomposeActions test requires-port@1.0.0
+924 silly decomposeActions preinstall requires-port@1.0.0
+925 silly decomposeActions build requires-port@1.0.0
+926 silly decomposeActions install requires-port@1.0.0
+927 silly decomposeActions postinstall requires-port@1.0.0
+928 silly decomposeActions finalize requires-port@1.0.0
+929 silly decomposeActions fetch url-join@1.1.0
+930 silly decomposeActions extract url-join@1.1.0
+931 silly decomposeActions test url-join@1.1.0
+932 silly decomposeActions preinstall url-join@1.1.0
+933 silly decomposeActions build url-join@1.1.0
+934 silly decomposeActions install url-join@1.1.0
+935 silly decomposeActions postinstall url-join@1.1.0
+936 silly decomposeActions finalize url-join@1.1.0
+937 silly decomposeActions fetch wordwrap@0.0.3
+938 silly decomposeActions extract wordwrap@0.0.3
+939 silly decomposeActions test wordwrap@0.0.3
+940 silly decomposeActions preinstall wordwrap@0.0.3
+941 silly decomposeActions build wordwrap@0.0.3
+942 silly decomposeActions install wordwrap@0.0.3
+943 silly decomposeActions postinstall wordwrap@0.0.3
+944 silly decomposeActions finalize wordwrap@0.0.3
+945 silly decomposeActions fetch colors@1.0.3
+946 silly decomposeActions extract colors@1.0.3
+947 silly decomposeActions test colors@1.0.3
+948 silly decomposeActions preinstall colors@1.0.3
+949 silly decomposeActions build colors@1.0.3
+950 silly decomposeActions install colors@1.0.3
+951 silly decomposeActions postinstall colors@1.0.3
+952 silly decomposeActions finalize colors@1.0.3
+953 silly decomposeActions fetch corser@2.0.1
+954 silly decomposeActions extract corser@2.0.1
+955 silly decomposeActions test corser@2.0.1
+956 silly decomposeActions preinstall corser@2.0.1
+957 silly decomposeActions build corser@2.0.1
+958 silly decomposeActions install corser@2.0.1
+959 silly decomposeActions postinstall corser@2.0.1
+960 silly decomposeActions finalize corser@2.0.1
+961 silly decomposeActions fetch ecstatic@1.4.1
+962 silly decomposeActions extract ecstatic@1.4.1
+963 silly decomposeActions test ecstatic@1.4.1
+964 silly decomposeActions preinstall ecstatic@1.4.1
+965 silly decomposeActions build ecstatic@1.4.1
+966 silly decomposeActions install ecstatic@1.4.1
+967 silly decomposeActions postinstall ecstatic@1.4.1
+968 silly decomposeActions finalize ecstatic@1.4.1
+969 silly decomposeActions fetch http-proxy@1.15.2
+970 silly decomposeActions extract http-proxy@1.15.2
+971 silly decomposeActions test http-proxy@1.15.2
+972 silly decomposeActions preinstall http-proxy@1.15.2
+973 silly decomposeActions build http-proxy@1.15.2
+974 silly decomposeActions install http-proxy@1.15.2
+975 silly decomposeActions postinstall http-proxy@1.15.2
+976 silly decomposeActions finalize http-proxy@1.15.2
+977 silly decomposeActions fetch opener@1.4.2
+978 silly decomposeActions extract opener@1.4.2
+979 silly decomposeActions test opener@1.4.2
+980 silly decomposeActions preinstall opener@1.4.2
+981 silly decomposeActions build opener@1.4.2
+982 silly decomposeActions install opener@1.4.2
+983 silly decomposeActions postinstall opener@1.4.2
+984 silly decomposeActions finalize opener@1.4.2
+985 silly decomposeActions fetch optimist@0.6.1
+986 silly decomposeActions extract optimist@0.6.1
+987 silly decomposeActions test optimist@0.6.1
+988 silly decomposeActions preinstall optimist@0.6.1
+989 silly decomposeActions build optimist@0.6.1
+990 silly decomposeActions install optimist@0.6.1
+991 silly decomposeActions postinstall optimist@0.6.1
+992 silly decomposeActions finalize optimist@0.6.1
+993 silly decomposeActions fetch portfinder@0.4.0
+994 silly decomposeActions extract portfinder@0.4.0
+995 silly decomposeActions test portfinder@0.4.0
+996 silly decomposeActions preinstall portfinder@0.4.0
+997 silly decomposeActions build portfinder@0.4.0
+998 silly decomposeActions install portfinder@0.4.0
+999 silly decomposeActions postinstall portfinder@0.4.0
+1000 silly decomposeActions finalize portfinder@0.4.0
+1001 silly decomposeActions fetch union@0.4.6
+1002 silly decomposeActions extract union@0.4.6
+1003 silly decomposeActions test union@0.4.6
+1004 silly decomposeActions preinstall union@0.4.6
+1005 silly decomposeActions build union@0.4.6
+1006 silly decomposeActions install union@0.4.6
+1007 silly decomposeActions postinstall union@0.4.6
+1008 silly decomposeActions finalize union@0.4.6
+1009 silly decomposeActions fetch http-server@0.9.0
+1010 silly decomposeActions extract http-server@0.9.0
+1011 silly decomposeActions test http-server@0.9.0
+1012 silly decomposeActions preinstall http-server@0.9.0
+1013 silly decomposeActions build http-server@0.9.0
+1014 silly decomposeActions install http-server@0.9.0
+1015 silly decomposeActions postinstall http-server@0.9.0
+1016 silly decomposeActions finalize http-server@0.9.0
+1017 silly runTopLevelLifecycles Starting
+1018 silly executeActions Starting
+1019 silly install executeActions
+1020 silly doSerial global-install 0
+1021 silly doParallel fetch 21
+1022 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+1023 verbose lock using /home/vagrant/.npm/_locks/staging-75a5f6398bd408c6.lock for /vagrant/projecthtml/node_modules/.staging
+1024 silly doParallel extract 21
+1025 silly extract async@0.9.0
+1026 silly extract eventemitter3@1.2.0
+1027 silly extract he@0.5.0
+1028 silly extract mime@1.3.4
+1029 silly extract minimist@1.2.0
+1030 silly extract minimist@0.0.8
+1031 silly extract mkdirp@0.5.1
+1032 silly extract minimist@0.0.10
+1033 silly extract qs@2.3.3
+1034 silly extract requires-port@1.0.0
+1035 silly extract url-join@1.1.0
+1036 silly extract wordwrap@0.0.3
+1037 silly extract colors@1.0.3
+1038 silly extract corser@2.0.1
+1039 silly extract ecstatic@1.4.1
+1040 silly extract http-proxy@1.15.2
+1041 silly extract opener@1.4.2
+1042 silly extract optimist@0.6.1
+1043 silly extract portfinder@0.4.0
+1044 silly extract union@0.4.6
+1045 silly extract http-server@0.9.0
+1046 verbose unbuild node_modules/.staging/async-1d168492
+1047 verbose unbuild node_modules/.staging/eventemitter3-4d8f414e
+1048 verbose unbuild node_modules/.staging/minimist-b5ebe5e2
+1049 verbose unbuild node_modules/.staging/minimist-40bf0bb1
+1050 verbose unbuild node_modules/.staging/minimist-6bb16aaa
+1051 verbose unbuild node_modules/.staging/qs-01c7d2da
+1052 verbose unbuild node_modules/.staging/requires-port-ca151de6
+1053 verbose unbuild node_modules/.staging/url-join-1fb89afd
+1054 verbose unbuild node_modules/.staging/wordwrap-c0be9a6c
+1055 verbose unbuild node_modules/.staging/colors-c9c1246e
+1056 verbose unbuild node_modules/.staging/corser-829a24d3
+1057 verbose unbuild node_modules/.staging/http-proxy-d1d98989
+1058 verbose unbuild node_modules/.staging/optimist-2684256d
+1059 verbose unbuild node_modules/.staging/portfinder-3fb566bd
+1060 verbose unbuild node_modules/.staging/union-06f79a4b
+1061 verbose unbuild node_modules/.staging/he-cde48bc3
+1062 verbose unbuild node_modules/.staging/mime-5642f6b2
+1063 verbose unbuild node_modules/.staging/mkdirp-d48b61a2
+1064 verbose unbuild node_modules/.staging/ecstatic-bfc09d13
+1065 verbose unbuild node_modules/.staging/opener-186a624e
+1066 verbose unbuild node_modules/.staging/http-server-c2561cf1
+1067 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/async-1d168492 is being purged from base /vagrant/projecthtml
+1068 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/async-1d168492
+1069 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e is being purged from base /vagrant/projecthtml
+1070 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e
+1071 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2 is being purged from base /vagrant/projecthtml
+1072 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2
+1073 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1 is being purged from base /vagrant/projecthtml
+1074 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1
+1075 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa is being purged from base /vagrant/projecthtml
+1076 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa
+1077 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da is being purged from base /vagrant/projecthtml
+1078 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da
+1079 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6 is being purged from base /vagrant/projecthtml
+1080 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6
+1081 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd is being purged from base /vagrant/projecthtml
+1082 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd
+1083 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c is being purged from base /vagrant/projecthtml
+1084 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c
+1085 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e is being purged from base /vagrant/projecthtml
+1086 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e
+1087 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/corser-829a24d3 is being purged from base /vagrant/projecthtml
+1088 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/corser-829a24d3
+1089 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989 is being purged from base /vagrant/projecthtml
+1090 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989
+1091 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/optimist-2684256d is being purged from base /vagrant/projecthtml
+1092 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/optimist-2684256d
+1093 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd is being purged from base /vagrant/projecthtml
+1094 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd
+1095 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/union-06f79a4b is being purged from base /vagrant/projecthtml
+1096 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/union-06f79a4b
+1097 verbose tar unpack /home/vagrant/.npm/async/0.9.0/package.tgz
+1098 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/async-1d168492
+1099 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/async-1d168492 is being purged
+1100 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/async-1d168492
+1101 verbose tar unpack /home/vagrant/.npm/eventemitter3/1.2.0/package.tgz
+1102 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e
+1103 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e is being purged
+1104 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e
+1105 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/he-cde48bc3 is being purged from base /vagrant/projecthtml
+1106 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/he-cde48bc3
+1107 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2 is being purged from base /vagrant/projecthtml
+1108 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2
+1109 verbose tar unpack /home/vagrant/.npm/minimist/1.2.0/package.tgz
+1110 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2
+1111 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2 is being purged
+1112 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2
+1113 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2 is being purged from base /vagrant/projecthtml
+1114 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2
+1115 verbose tar unpack /home/vagrant/.npm/minimist/0.0.8/package.tgz
+1116 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1
+1117 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1 is being purged
+1118 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1
+1119 verbose tar unpack /home/vagrant/.npm/minimist/0.0.10/package.tgz
+1120 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa
+1121 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa is being purged
+1122 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa
+1123 verbose tar unpack /home/vagrant/.npm/qs/2.3.3/package.tgz
+1124 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da
+1125 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da is being purged
+1126 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da
+1127 verbose tar unpack /home/vagrant/.npm/requires-port/1.0.0/package.tgz
+1128 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6
+1129 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6 is being purged
+1130 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6
+1131 verbose tar unpack /home/vagrant/.npm/url-join/1.1.0/package.tgz
+1132 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd
+1133 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd is being purged
+1134 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd
+1135 verbose tar unpack /home/vagrant/.npm/wordwrap/0.0.3/package.tgz
+1136 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c
+1137 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c is being purged
+1138 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c
+1139 verbose tar unpack /home/vagrant/.npm/colors/1.0.3/package.tgz
+1140 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e
+1141 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e is being purged
+1142 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e
+1143 verbose tar unpack /home/vagrant/.npm/corser/2.0.1/package.tgz
+1144 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/corser-829a24d3
+1145 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/corser-829a24d3 is being purged
+1146 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/corser-829a24d3
+1147 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/opener-186a624e is being purged from base /vagrant/projecthtml
+1148 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/opener-186a624e
+1149 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13 is being purged from base /vagrant/projecthtml
+1150 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13
+1151 verbose tar unpack /home/vagrant/.npm/http-proxy/1.15.2/package.tgz
+1152 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989
+1153 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989 is being purged
+1154 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989
+1155 verbose tar unpack /home/vagrant/.npm/optimist/0.6.1/package.tgz
+1156 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/optimist-2684256d
+1157 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/optimist-2684256d is being purged
+1158 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/optimist-2684256d
+1159 verbose tar unpack /home/vagrant/.npm/portfinder/0.4.0/package.tgz
+1160 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd
+1161 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd is being purged
+1162 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd
+1163 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1 is being purged from base /vagrant/projecthtml
+1164 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1
+1165 verbose tar unpack /home/vagrant/.npm/union/0.4.6/package.tgz
+1166 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/union-06f79a4b
+1167 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/union-06f79a4b is being purged
+1168 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/union-06f79a4b
+1169 silly gunzTarPerm modes [ '755', '644' ]
+1170 silly gunzTarPerm modes [ '755', '644' ]
+1171 verbose tar unpack /home/vagrant/.npm/he/0.5.0/package.tgz
+1172 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/he-cde48bc3
+1173 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/he-cde48bc3 is being purged
+1174 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/he-cde48bc3
+1175 verbose tar unpack /home/vagrant/.npm/mime/1.3.4/package.tgz
+1176 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2
+1177 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2 is being purged
+1178 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2
+1179 silly gunzTarPerm modes [ '755', '644' ]
+1180 verbose tar unpack /home/vagrant/.npm/mkdirp/0.5.1/package.tgz
+1181 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2
+1182 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2 is being purged
+1183 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2
+1184 silly gunzTarPerm modes [ '755', '644' ]
+1185 silly gunzTarPerm modes [ '755', '644' ]
+1186 silly gunzTarPerm modes [ '755', '644' ]
+1187 silly gunzTarPerm modes [ '755', '644' ]
+1188 silly gunzTarPerm modes [ '755', '644' ]
+1189 silly gunzTarPerm modes [ '755', '644' ]
+1190 silly gunzTarPerm modes [ '755', '644' ]
+1191 silly gunzTarPerm modes [ '755', '644' ]
+1192 verbose tar unpack /home/vagrant/.npm/opener/1.4.2/package.tgz
+1193 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/opener-186a624e
+1194 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/opener-186a624e is being purged
+1195 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/opener-186a624e
+1196 verbose tar unpack /home/vagrant/.npm/ecstatic/1.4.1/package.tgz
+1197 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13
+1198 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13 is being purged
+1199 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13
+1200 silly gunzTarPerm modes [ '755', '644' ]
+1201 silly gunzTarPerm modes [ '755', '644' ]
+1202 silly gunzTarPerm modes [ '755', '644' ]
+1203 verbose tar unpack /home/vagrant/.npm/http-server/0.9.0/package.tgz
+1204 verbose tar unpacking to /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1
+1205 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1 is being purged
+1206 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1
+1207 silly gunzTarPerm modes [ '755', '644' ]
+1208 silly gunzTarPerm modes [ '755', '644' ]
+1209 silly gunzTarPerm modes [ '755', '644' ]
+1210 silly gunzTarPerm modes [ '755', '644' ]
+1211 silly gunzTarPerm modes [ '755', '644' ]
+1212 silly gunzTarPerm modes [ '755', '644' ]
+1213 silly gunzTarPerm modes [ '755', '644' ]
+1214 silly gunzTarPerm extractEntry package.json
+1215 silly gunzTarPerm extractEntry package.json
+1216 silly gunzTarPerm extractEntry package.json
+1217 silly gunzTarPerm extractEntry package.json
+1218 silly gunzTarPerm extractEntry package.json
+1219 silly gunzTarPerm extractEntry package.json
+1220 silly gunzTarPerm extractEntry package.json
+1221 silly gunzTarPerm extractEntry package.json
+1222 silly gunzTarPerm extractEntry package.json
+1223 silly gunzTarPerm extractEntry package.json
+1224 silly gunzTarPerm extractEntry package.json
+1225 silly gunzTarPerm extractEntry package.json
+1226 silly gunzTarPerm extractEntry package.json
+1227 silly gunzTarPerm extractEntry package.json
+1228 silly gunzTarPerm extractEntry package.json
+1229 silly gunzTarPerm extractEntry package.json
+1230 silly gunzTarPerm extractEntry package.json
+1231 silly gunzTarPerm extractEntry package.json
+1232 silly gunzTarPerm extractEntry package.json
+1233 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+1234 silly gunzTarPerm extractEntry package.json
+1235 silly gunzTarPerm extractEntry package.json
+1236 silly gunzTarPerm extractEntry README.md
+1237 silly gunzTarPerm extractEntry LICENSE
+1238 silly gunzTarPerm extractEntry .travis.yml
+1239 silly gunzTarPerm extractEntry component.json
+1240 silly gunzTarPerm extractEntry lib/async.js
+1241 silly gunzTarPerm extractEntry README.md
+1242 silly gunzTarPerm extractEntry LICENSE
+1243 silly gunzTarPerm extractEntry LICENSE
+1244 silly gunzTarPerm extractEntry index.js
+1245 silly gunzTarPerm extractEntry LICENSE
+1246 silly gunzTarPerm extractEntry index.js
+1247 silly gunzTarPerm extractEntry .npmignore
+1248 silly gunzTarPerm extractEntry README.md
+1249 silly gunzTarPerm extractEntry LICENSE
+1250 silly gunzTarPerm extractEntry index.js
+1251 silly gunzTarPerm extractEntry .npmignore
+1252 silly gunzTarPerm extractEntry README.md
+1253 silly gunzTarPerm extractEntry .npmignore
+1254 silly gunzTarPerm extractEntry README.md
+1255 silly gunzTarPerm extractEntry LICENSE
+1256 silly gunzTarPerm extractEntry index.js
+1257 silly gunzTarPerm extractEntry safe.js
+1258 silly gunzTarPerm extractEntry .travis.yml
+1259 silly gunzTarPerm extractEntry .npmignore
+1260 silly gunzTarPerm extractEntry README.md
+1261 silly gunzTarPerm extractEntry .npmignore
+1262 silly gunzTarPerm extractEntry README.md
+1263 silly gunzTarPerm extractEntry .npmignore
+1264 silly gunzTarPerm extractEntry README.md
+1265 silly gunzTarPerm extractEntry LICENSE
+1266 silly gunzTarPerm extractEntry index.js
+1267 silly gunzTarPerm extractEntry README.md
+1268 silly gunzTarPerm extractEntry he.js
+1269 silly gunzTarPerm extractEntry .npmignore
+1270 silly gunzTarPerm extractEntry README.md
+1271 silly gunzTarPerm extractEntry .npmignore
+1272 silly gunzTarPerm extractEntry README.md
+1273 silly gunzTarPerm extractEntry LICENSE
+1274 silly gunzTarPerm extractEntry index.js
+1275 silly gunzTarPerm extractEntry opener.js
+1276 silly gunzTarPerm modified mode [ 'opener.js', 438, 420 ]
+1277 silly gunzTarPerm extractEntry LICENSE.txt
+1278 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+1279 silly gunzTarPerm extractEntry .npmignore
+1280 silly gunzTarPerm extractEntry README.md
+1281 silly gunzTarPerm extractEntry .npmignore
+1282 silly gunzTarPerm extractEntry README.md
+1283 silly gunzTarPerm extractEntry index.js
+1284 silly gunzTarPerm extractEntry .travis.yml
+1285 silly gunzTarPerm extractEntry example/parse.js
+1286 silly gunzTarPerm extractEntry .travis.yml
+1287 silly gunzTarPerm extractEntry example/parse.js
+1288 silly gunzTarPerm extractEntry LICENSE
+1289 silly gunzTarPerm extractEntry index.js
+1290 silly gunzTarPerm extractEntry LICENSE
+1291 silly gunzTarPerm extractEntry index.js
+1292 silly gunzTarPerm extractEntry .travis.yml
+1293 silly gunzTarPerm extractEntry example/parse.js
+1294 silly gunzTarPerm extractEntry .travis.yml
+1295 silly gunzTarPerm extractEntry bower.json
+1296 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+1297 silly gunzTarPerm extractEntry ReadMe.md
+1298 silly gunzTarPerm extractEntry README.markdown
+1299 silly gunzTarPerm extractEntry example/center.js
+1300 silly gunzTarPerm extractEntry LICENSE
+1301 silly gunzTarPerm extractEntry LICENSE
+1302 silly gunzTarPerm extractEntry .travis.yml
+1303 silly gunzTarPerm extractEntry .travis.yml
+1304 silly gunzTarPerm extractEntry example/bool.js
+1305 silly gunzTarPerm extractEntry LICENSE
+1306 silly gunzTarPerm extractEntry examples/after/index.js
+1307 silly gunzTarPerm extractEntry LICENSE
+1308 silly gunzTarPerm extractEntry .travis.yml
+1309 silly gunzTarPerm extractEntry LICENSE
+1310 silly gunzTarPerm extractEntry cli.js
+1311 silly gunzTarPerm extractEntry .travis.yml
+1312 silly gunzTarPerm extractEntry bin/cmd.js
+1313 silly gunzTarPerm extractEntry LICENSE-MIT.txt
+1314 silly gunzTarPerm extractEntry LICENSE
+1315 silly gunzTarPerm extractEntry test.js
+1316 silly gunzTarPerm extractEntry CONTRIBUTING.md
+1317 silly gunzTarPerm extractEntry test.js
+1318 silly gunzTarPerm extractEntry .travis.yml
+1319 silly gunzTarPerm extractEntry mime.js
+1320 silly gunzTarPerm extractEntry build/build.js
+1321 silly gunzTarPerm extractEntry CHANGELOG.md
+1322 silly gunzTarPerm extractEntry CONTRIBUTING.md
+1323 silly gunzTarPerm extractEntry Makefile
+1324 silly gunzTarPerm extractEntry .jshintignore
+1325 silly gunzTarPerm extractEntry .jshintrc
+1326 silly gunzTarPerm extractEntry lib/index.js
+1327 silly gunzTarPerm extractEntry lib/parse.js
+1328 silly gunzTarPerm extractEntry lib/stringify.js
+1329 silly gunzTarPerm extractEntry lib/utils.js
+1330 silly gunzTarPerm extractEntry .travis.yml
+1331 silly gunzTarPerm extractEntry test/parse.js
+1332 silly gunzTarPerm extractEntry test/stringify.js
+1333 silly gunzTarPerm extractEntry index.js
+1334 silly gunzTarPerm extractEntry lib/http-proxy.js
+1335 silly gunzTarPerm extractEntry lib/url-join.js
+1336 silly gunzTarPerm extractEntry test/tests.js
+1337 silly gunzTarPerm extractEntry lib/corser.js
+1338 silly gunzTarPerm extractEntry examples/normal-usage.js
+1339 silly gunzTarPerm extractEntry examples/safe-string.js
+1340 silly gunzTarPerm extractEntry examples/simple/simple.js
+1341 silly gunzTarPerm extractEntry examples/simple/spdy.js
+1342 silly gunzTarPerm extractEntry examples/simple/favicon.png
+1343 silly gunzTarPerm extractEntry examples/simple/middleware/favicon.js
+1344 silly gunzTarPerm extractEntry examples/simple/middleware/gzip-decode.js
+1345 silly gunzTarPerm extractEntry examples/simple/middleware/gzip-encode.js
+1346 silly gunzTarPerm extractEntry examples/socketio/README
+1347 silly gunzTarPerm extractEntry examples/socketio/server.js
+1348 silly gunzTarPerm extractEntry examples/socketio/index.html
+1349 silly gunzTarPerm extractEntry .travis.yml
+1350 silly gunzTarPerm extractEntry CHANGELOG.md
+1351 silly gunzTarPerm extractEntry lib/buffered-stream.js
+1352 silly gunzTarPerm extractEntry lib/core.js
+1353 silly gunzTarPerm extractEntry lib/http-stream.js
+1354 silly gunzTarPerm extractEntry lib/index.js
+1355 silly gunzTarPerm extractEntry lib/request-stream.js
+1356 silly gunzTarPerm extractEntry lib/response-stream.js
+1357 silly gunzTarPerm extractEntry lib/routing-stream.js
+1358 silly gunzTarPerm extractEntry test/after-test.js
+1359 silly gunzTarPerm extractEntry test/double-write-test.js
+1360 silly gunzTarPerm extractEntry test/ecstatic-test.js
+1361 silly gunzTarPerm extractEntry test/status-code-test.js
+1362 silly gunzTarPerm extractEntry test/body-parser-test.js
+1363 silly gunzTarPerm extractEntry test/simple-test.js
+1364 silly gunzTarPerm extractEntry test/prop-test.js
+1365 silly gunzTarPerm extractEntry test/streaming-test.js
+1366 silly gunzTarPerm extractEntry test/header-test.js
+1367 silly gunzTarPerm extractEntry test/helpers/index.js
+1368 silly gunzTarPerm extractEntry test/helpers/macros.js
+1369 silly gunzTarPerm extractEntry test/fixtures/index.js
+1370 silly gunzTarPerm extractEntry test/fixtures/static/some-file.txt
+1371 silly gunzTarPerm extractEntry union.png
+1372 silly gunzTarPerm extractEntry readme.markdown
+1373 silly gunzTarPerm extractEntry test/bool.js
+1374 silly gunzTarPerm extractEntry readme.markdown
+1375 silly gunzTarPerm extractEntry test/all_bool.js
+1376 silly gunzTarPerm extractEntry test/default_bool.js
+1377 silly gunzTarPerm extractEntry test/dotted.js
+1378 silly gunzTarPerm extractEntry test/kv_short.js
+1379 silly gunzTarPerm extractEntry test/long.js
+1380 silly gunzTarPerm extractEntry test/dash.js
+1381 silly gunzTarPerm extractEntry test/parse.js
+1382 silly gunzTarPerm extractEntry test/parse_modified.js
+1383 silly gunzTarPerm extractEntry test/short.js
+1384 silly gunzTarPerm extractEntry test/stop_early.js
+1385 silly gunzTarPerm extractEntry test/unknown.js
+1386 silly gunzTarPerm extractEntry test/bool.js
+1387 silly gunzTarPerm extractEntry test/whitespace.js
+1388 silly gunzTarPerm extractEntry test/num.js
+1389 silly gunzTarPerm extractEntry lib/portfinder.js
+1390 silly gunzTarPerm extractEntry test/port-finder-multiple-test.js
+1391 silly gunzTarPerm extractEntry readme.markdown
+1392 silly gunzTarPerm extractEntry test/dash.js
+1393 silly gunzTarPerm extractEntry example/meat.js
+1394 silly gunzTarPerm extractEntry test/break.js
+1395 silly gunzTarPerm extractEntry example/default_singles.js
+1396 silly gunzTarPerm extractEntry example/divide.js
+1397 silly gunzTarPerm extractEntry example/line_count.js
+1398 silly gunzTarPerm extractEntry example/default_hash.js
+1399 silly gunzTarPerm extractEntry example/line_count_wrap.js
+1400 silly gunzTarPerm extractEntry example/nonopt.js
+1401 silly gunzTarPerm extractEntry example/reflect.js
+1402 silly gunzTarPerm extractEntry example/short.js
+1403 silly gunzTarPerm extractEntry example/string.js
+1404 silly gunzTarPerm extractEntry example/boolean_single.js
+1405 silly gunzTarPerm extractEntry example/usage-options.js
+1406 silly gunzTarPerm extractEntry example/boolean_double.js
+1407 silly gunzTarPerm extractEntry example/xup.js
+1408 silly gunzTarPerm extractEntry example/line_count_options.js
+1409 silly gunzTarPerm extractEntry readme.markdown
+1410 silly gunzTarPerm extractEntry test/_.js
+1411 silly gunzTarPerm extractEntry test/dash.js
+1412 silly gunzTarPerm extractEntry test/parse.js
+1413 silly gunzTarPerm extractEntry test/parse_modified.js
+1414 silly gunzTarPerm extractEntry test/short.js
+1415 silly gunzTarPerm extractEntry test/usage.js
+1416 silly gunzTarPerm extractEntry test/whitespace.js
+1417 silly gunzTarPerm extractEntry test/_/argv.js
+1418 silly gunzTarPerm extractEntry test/_/bin.js
+1419 silly gunzTarPerm extractEntry bin/usage.txt
+1420 silly gunzTarPerm extractEntry examples/pow.js
+1421 silly gunzTarPerm extractEntry lib/http-server.js
+1422 silly gunzTarPerm extractEntry bin/http-server
+1423 silly gunzTarPerm extractEntry CONTRIBUTORS.md
+1424 silly gunzTarPerm extractEntry bin/he
+1425 silly gunzTarPerm extractEntry man/he.1
+1426 silly gunzTarPerm extractEntry lib/colors.js
+1427 silly gunzTarPerm extractEntry build/test.js
+1428 silly gunzTarPerm extractEntry types.json
+1429 silly gunzTarPerm extractEntry lib/http-proxy/common.js
+1430 silly gunzTarPerm extractEntry lib/http-proxy/index.js
+1431 silly gunzTarPerm extractEntry lib/extendStringPrototype.js
+1432 silly gunzTarPerm extractEntry test/port-finder-socket-test.js
+1433 silly gunzTarPerm extractEntry test/port-finder-test.js
+1434 silly gunzTarPerm extractEntry test/fixtures/.gitkeep
+1435 silly gunzTarPerm extractEntry test/dash.js
+1436 silly gunzTarPerm extractEntry test/wrap.js
+1437 silly gunzTarPerm extractEntry test/idleness.txt
+1438 silly gunzTarPerm extractEntry test/default_bool.js
+1439 silly gunzTarPerm extractEntry test/dotted.js
+1440 silly gunzTarPerm extractEntry test/long.js
+1441 silly gunzTarPerm extractEntry test/parse.js
+1442 silly gunzTarPerm extractEntry test/parse_modified.js
+1443 silly gunzTarPerm extractEntry test/short.js
+1444 silly gunzTarPerm extractEntry test/whitespace.js
+1445 silly gunzTarPerm extractEntry readme.markdown
+1446 silly gunzTarPerm extractEntry test/chmod.js
+1447 silly gunzTarPerm extractEntry screenshots/directory.png
+1448 silly gunzTarPerm extractEntry screenshots/public.png
+1449 silly gunzTarPerm extractEntry LICENSE.txt
+1450 silly gunzTarPerm extractEntry CHANGELOG.md
+1451 silly gunzTarPerm extractEntry test/default_bool.js
+1452 silly gunzTarPerm extractEntry test/dotted.js
+1453 silly gunzTarPerm extractEntry lib/index.js
+1454 silly gunzTarPerm extractEntry lib/styles.js
+1455 silly gunzTarPerm extractEntry lib/http-proxy/passes/web-incoming.js
+1456 silly gunzTarPerm extractEntry lib/http-proxy/passes/web-outgoing.js
+1457 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+1458 silly gunzTarPerm extractEntry example/core.js
+1459 silly gunzTarPerm extractEntry example/express.js
+1460 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/opener-186a624e/node_modules is being purged
+1461 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/opener-186a624e/node_modules
+1462 silly gunzTarPerm extractEntry lib/http-proxy/passes/ws-incoming.js
+1463 silly gunzTarPerm extractEntry lib/custom/trap.js
+1464 silly gunzTarPerm extractEntry lib/custom/zalgo.js
+1465 silly gunzTarPerm extractEntry test/long.js
+1466 silly gunzTarPerm extractEntry test/num.js
+1467 silly gunzTarPerm extractEntry example/union.js
+1468 silly gunzTarPerm extractEntry example/public/beep/index.html
+1469 silly gunzTarPerm extractEntry screenshots/start.png
+1470 silly gunzTarPerm extractEntry test/perm.js
+1471 silly gunzTarPerm extractEntry test/perm_sync.js
+1472 silly gunzTarPerm extractEntry .travis.yml
+1473 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e/node_modules is being purged
+1474 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e/node_modules
+1475 silly gunzTarPerm extractEntry test/parse.js
+1476 silly gunzTarPerm extractEntry test/parse_modified.js
+1477 silly gunzTarPerm extractEntry lib/maps/america.js
+1478 silly gunzTarPerm extractEntry lib/maps/rainbow.js
+1479 silly gunzTarPerm extractEntry test/opts_fs.js
+1480 silly gunzTarPerm extractEntry test/rel.js
+1481 silly gunzTarPerm extractEntry example/public/hello.txt
+1482 silly gunzTarPerm extractEntry example/public/subdir/world.txt
+1483 silly gunzTarPerm extractEntry public/404.html
+1484 silly gunzTarPerm extractEntry public/img/turtle.png
+1485 silly gunzTarPerm extractEntry lib/maps/random.js
+1486 silly gunzTarPerm extractEntry lib/maps/zebra.js
+1487 silly gunzTarPerm extractEntry test/short.js
+1488 silly gunzTarPerm extractEntry test/whitespace.js
+1489 silly gunzTarPerm extractEntry example/public/turtle.png
+1490 silly gunzTarPerm extractEntry test/return.js
+1491 silly gunzTarPerm extractEntry test/return_sync.js
+1492 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/corser-829a24d3/node_modules is being purged
+1493 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/corser-829a24d3/node_modules
+1494 silly gunzTarPerm extractEntry public/index.html
+1495 silly gunzTarPerm extractEntry lib/ecstatic.js
+1496 silly gunzTarPerm extractEntry test/http-server-test.js
+1497 silly gunzTarPerm extractEntry test/fixtures/root/canYouSeeMe
+1498 silly gunzTarPerm extractEntry lib/ecstatic/etag.js
+1499 silly gunzTarPerm extractEntry lib/ecstatic/opts.js
+1500 silly gunzTarPerm extractEntry test/root.js
+1501 silly gunzTarPerm extractEntry test/sync.js
+1502 silly gunzTarPerm extractEntry lib/system/supports-colors.js
+1503 silly gunzTarPerm extractEntry screenshots/colors.png
+1504 silly gunzTarPerm extractEntry test/fixtures/root/file
+1505 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6/node_modules is being purged
+1506 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6/node_modules
+1507 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd/node_modules is being purged
+1508 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd/node_modules
+1509 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/async-1d168492/node_modules is being purged
+1510 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/async-1d168492/node_modules
+1511 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/he-cde48bc3/node_modules is being purged
+1512 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/he-cde48bc3/node_modules
+1513 silly gunzTarPerm extractEntry lib/ecstatic/showdir.js
+1514 silly gunzTarPerm extractEntry tests/basic-test.js
+1515 silly gunzTarPerm extractEntry tests/safe-test.js
+1516 silly gunzTarPerm extractEntry test/mkdirp.js
+1517 silly gunzTarPerm extractEntry test/umask.js
+1518 silly gunzTarPerm extractEntry lib/ecstatic/status-handlers.js
+1519 silly gunzTarPerm extractEntry lib/ecstatic/aliases.json
+1520 silly gunzTarPerm extractEntry themes/generic-logging.js
+1521 silly gunzTarPerm extractEntry test/clobber.js
+1522 silly gunzTarPerm extractEntry test/umask_sync.js
+1523 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2/node_modules is being purged
+1524 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2/node_modules
+1525 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c/node_modules is being purged
+1526 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c/node_modules
+1527 silly gunzTarPerm extractEntry lib/ecstatic/defaults.json
+1528 silly gunzTarPerm extractEntry .travis.yml
+1529 silly gunzTarPerm extractEntry test/race.js
+1530 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd/node_modules is being purged
+1531 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd/node_modules
+1532 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989/node_modules is being purged
+1533 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989/node_modules
+1534 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1/node_modules is being purged
+1535 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1/node_modules
+1536 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa/node_modules is being purged
+1537 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa/node_modules
+1538 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da/node_modules is being purged
+1539 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da/node_modules
+1540 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2/node_modules is being purged
+1541 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2/node_modules
+1542 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1/node_modules is being purged
+1543 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1/node_modules
+1544 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2/node_modules is being purged
+1545 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2/node_modules
+1546 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e/node_modules is being purged
+1547 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e/node_modules
+1548 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13/node_modules is being purged
+1549 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13/node_modules
+1550 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/optimist-2684256d/node_modules is being purged
+1551 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/optimist-2684256d/node_modules
+1552 silly gentlyRm /vagrant/projecthtml/node_modules/.staging/union-06f79a4b/node_modules is being purged
+1553 verbose gentlyRm don't care about contents; nuking /vagrant/projecthtml/node_modules/.staging/union-06f79a4b/node_modules
+1554 silly doParallel preinstall 21
+1555 silly preinstall async@0.9.0 /vagrant/projecthtml/node_modules/.staging/async-1d168492
+1556 info lifecycle async@0.9.0~preinstall: async@0.9.0
+1557 silly preinstall eventemitter3@1.2.0 /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e
+1558 info lifecycle eventemitter3@1.2.0~preinstall: eventemitter3@1.2.0
+1559 silly preinstall he@0.5.0 /vagrant/projecthtml/node_modules/.staging/he-cde48bc3
+1560 info lifecycle he@0.5.0~preinstall: he@0.5.0
+1561 silly preinstall mime@1.3.4 /vagrant/projecthtml/node_modules/.staging/mime-5642f6b2
+1562 info lifecycle mime@1.3.4~preinstall: mime@1.3.4
+1563 silly preinstall minimist@1.2.0 /vagrant/projecthtml/node_modules/.staging/minimist-b5ebe5e2
+1564 info lifecycle minimist@1.2.0~preinstall: minimist@1.2.0
+1565 silly preinstall minimist@0.0.8 /vagrant/projecthtml/node_modules/.staging/minimist-40bf0bb1
+1566 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+1567 silly preinstall mkdirp@0.5.1 /vagrant/projecthtml/node_modules/.staging/mkdirp-d48b61a2
+1568 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+1569 silly preinstall minimist@0.0.10 /vagrant/projecthtml/node_modules/.staging/minimist-6bb16aaa
+1570 info lifecycle minimist@0.0.10~preinstall: minimist@0.0.10
+1571 silly preinstall qs@2.3.3 /vagrant/projecthtml/node_modules/.staging/qs-01c7d2da
+1572 info lifecycle qs@2.3.3~preinstall: qs@2.3.3
+1573 silly preinstall requires-port@1.0.0 /vagrant/projecthtml/node_modules/.staging/requires-port-ca151de6
+1574 info lifecycle requires-port@1.0.0~preinstall: requires-port@1.0.0
+1575 silly preinstall url-join@1.1.0 /vagrant/projecthtml/node_modules/.staging/url-join-1fb89afd
+1576 info lifecycle url-join@1.1.0~preinstall: url-join@1.1.0
+1577 silly preinstall wordwrap@0.0.3 /vagrant/projecthtml/node_modules/.staging/wordwrap-c0be9a6c
+1578 info lifecycle wordwrap@0.0.3~preinstall: wordwrap@0.0.3
+1579 silly preinstall colors@1.0.3 /vagrant/projecthtml/node_modules/.staging/colors-c9c1246e
+1580 info lifecycle colors@1.0.3~preinstall: colors@1.0.3
+1581 silly preinstall corser@2.0.1 /vagrant/projecthtml/node_modules/.staging/corser-829a24d3
+1582 info lifecycle corser@2.0.1~preinstall: corser@2.0.1
+1583 silly preinstall ecstatic@1.4.1 /vagrant/projecthtml/node_modules/.staging/ecstatic-bfc09d13
+1584 info lifecycle ecstatic@1.4.1~preinstall: ecstatic@1.4.1
+1585 silly preinstall http-proxy@1.15.2 /vagrant/projecthtml/node_modules/.staging/http-proxy-d1d98989
+1586 info lifecycle http-proxy@1.15.2~preinstall: http-proxy@1.15.2
+1587 silly preinstall opener@1.4.2 /vagrant/projecthtml/node_modules/.staging/opener-186a624e
+1588 info lifecycle opener@1.4.2~preinstall: opener@1.4.2
+1589 silly preinstall optimist@0.6.1 /vagrant/projecthtml/node_modules/.staging/optimist-2684256d
+1590 info lifecycle optimist@0.6.1~preinstall: optimist@0.6.1
+1591 silly preinstall portfinder@0.4.0 /vagrant/projecthtml/node_modules/.staging/portfinder-3fb566bd
+1592 info lifecycle portfinder@0.4.0~preinstall: portfinder@0.4.0
+1593 silly preinstall union@0.4.6 /vagrant/projecthtml/node_modules/.staging/union-06f79a4b
+1594 info lifecycle union@0.4.6~preinstall: union@0.4.6
+1595 silly preinstall http-server@0.9.0 /vagrant/projecthtml/node_modules/.staging/http-server-c2561cf1
+1596 info lifecycle http-server@0.9.0~preinstall: http-server@0.9.0
+1597 silly lifecycle async@0.9.0~preinstall: no script for preinstall, continuing
+1598 silly lifecycle eventemitter3@1.2.0~preinstall: no script for preinstall, continuing
+1599 silly lifecycle he@0.5.0~preinstall: no script for preinstall, continuing
+1600 silly lifecycle mime@1.3.4~preinstall: no script for preinstall, continuing
+1601 silly lifecycle minimist@1.2.0~preinstall: no script for preinstall, continuing
+1602 silly lifecycle minimist@0.0.8~preinstall: no script for preinstall, continuing
+1603 silly lifecycle mkdirp@0.5.1~preinstall: no script for preinstall, continuing
+1604 silly lifecycle minimist@0.0.10~preinstall: no script for preinstall, continuing
+1605 silly lifecycle qs@2.3.3~preinstall: no script for preinstall, continuing
+1606 silly lifecycle requires-port@1.0.0~preinstall: no script for preinstall, continuing
+1607 silly lifecycle url-join@1.1.0~preinstall: no script for preinstall, continuing
+1608 silly lifecycle wordwrap@0.0.3~preinstall: no script for preinstall, continuing
+1609 silly lifecycle colors@1.0.3~preinstall: no script for preinstall, continuing
+1610 silly lifecycle corser@2.0.1~preinstall: no script for preinstall, continuing
+1611 silly lifecycle ecstatic@1.4.1~preinstall: no script for preinstall, continuing
+1612 silly lifecycle http-proxy@1.15.2~preinstall: no script for preinstall, continuing
+1613 silly lifecycle opener@1.4.2~preinstall: no script for preinstall, continuing
+1614 silly lifecycle optimist@0.6.1~preinstall: no script for preinstall, continuing
+1615 silly lifecycle portfinder@0.4.0~preinstall: no script for preinstall, continuing
+1616 silly lifecycle union@0.4.6~preinstall: no script for preinstall, continuing
+1617 silly lifecycle http-server@0.9.0~preinstall: no script for preinstall, continuing
+1618 silly doReverseSerial remove 0
+1619 silly doSerial move 0
+1620 silly doSerial finalize 21
+1621 silly finalize /vagrant/projecthtml/node_modules/async
+1622 silly finalize /vagrant/projecthtml/node_modules/eventemitter3
+1623 verbose unlock done using /home/vagrant/.npm/_locks/staging-75a5f6398bd408c6.lock for /vagrant/projecthtml/node_modules/.staging
+1624 silly rollbackFailedOptional Starting
+1625 silly rollbackFailedOptional Finishing
+1626 silly runTopLevelLifecycles Finishing
+1627 silly install printInstalled
+1628 warn enoent ENOENT: no such file or directory, open '/vagrant/projecthtml/package.json'
+1629 verbose enoent ENOENT: no such file or directory, open '/vagrant/projecthtml/package.json'
+1629 verbose enoent This is most likely not a problem with npm itself
+1629 verbose enoent and is related to npm not being able to find a file.
+1630 warn projecthtml No description
+1631 verbose If you need help, you may report this error at:
+1631 verbose     <https://github.com/npm/npm/issues>
+1632 warn projecthtml No repository field.
+1633 verbose If you need help, you may report this error at:
+1633 verbose     <https://github.com/npm/npm/issues>
+1634 warn projecthtml No README data
+1635 verbose If you need help, you may report this error at:
+1635 verbose     <https://github.com/npm/npm/issues>
+1636 warn projecthtml No license field.
+1637 verbose If you need help, you may report this error at:
+1637 verbose     <https://github.com/npm/npm/issues>
+1638 verbose stack Error: EPERM: operation not permitted, rename '/vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e' -> '/vagrant/projecthtml/node_modules/eventemitter3'
+1638 verbose stack     at destStatted (/usr/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+1638 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+1638 verbose stack
+1638 verbose stack Error: EPERM: operation not permitted, rename '/vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e' -> '/vagrant/projecthtml/node_modules/eventemitter3'
+1638 verbose stack     at Error (native)
+1639 verbose cwd /vagrant/projecthtml
+1640 error Linux 4.4.0-21-generic
+1641 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "http-server"
+1642 error node v6.9.1
+1643 error npm  v3.10.8
+1644 error path /vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e
+1645 error code EPERM
+1646 error errno -1
+1647 error syscall rename
+1648 error Error: EPERM: operation not permitted, rename '/vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e' -> '/vagrant/projecthtml/node_modules/eventemitter3'
+1648 error     at destStatted (/usr/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+1648 error     at FSReqWrap.oncomplete (fs.js:123:15)
+1648 error
+1648 error Error: EPERM: operation not permitted, rename '/vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e' -> '/vagrant/projecthtml/node_modules/eventemitter3'
+1648 error     at Error (native)
+1648 error  Error: EPERM: operation not permitted, rename '/vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e' -> '/vagrant/projecthtml/node_modules/eventemitter3'
+1648 error     at destStatted (/usr/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+1648 error     at FSReqWrap.oncomplete (fs.js:123:15)
+1648 error
+1648 error Error: EPERM: operation not permitted, rename '/vagrant/projecthtml/node_modules/.staging/eventemitter3-4d8f414e' -> '/vagrant/projecthtml/node_modules/eventemitter3'
+1648 error     at Error (native)
+1649 error Please try running this command again as root/Administrator.
+1650 verbose exit [ -1, true ]

@@ -1,0 +1,138 @@
+nav li
+{
+	display: inline;
+	margin-left: 0;
+	margin-right: 18px;
+}
+
+nav ul a 
+{
+	text-decoration: none;
+	color: black;
+	
+}
+nav
+{
+	float: right;
+}
+h1,h2
+{
+	float: left;
+	margin-right: 722px;
+	font-family: 'Lobster', cursive;
+}
+#imag
+{
+	height: 400px;
+	width: 400px;
+
+}
+h3
+{
+	font-family: 'Lobster', cursive;
+	padding-top: 5px;
+}
+h4
+{
+	font-family: 'Lobster', cursive;
+	font-family: 'Dancing Script', cursive;
+}
+p
+{
+	font-family: 'Lobster', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Architects Daughter', cursive;
+	padding-bottom: 30px;
+	padding-top: 5px;
+	
+}
+header
+{
+	background-color:#0052cc;
+	width:100%;
+	position:fixed;
+	top:0px;
+}
+.content
+{
+	background-color: #66a3ff;
+	padding-top: 60px;
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+
+img
+{
+	height: 200px;
+	width: 300px;
+	padding-bottom: 20px;
+}
+body
+{
+	background-color: #cce0ff;
+	background-repeat: no-repeat; 
+}
+.main{
+	margin: 30px 0;
+}
+.primary{
+	padding-top: 50px;
+	padding-bottom: 550px;
+
+}
+.second_section
+{
+	padding-top: 10px;
+}
+footer 
+{
+
+	padding: 5px;
+	padding-bottom: 10px;
+
+	background-color: grey;
+	margin: 0;
+	overflow: hidden;;
+}
+#heading
+{
+	text-align: right;
+	
+	font-family: 'Ravi Prakash', cursive;
+	
+
+
+}
+footer a
+{
+	text-decoration: none;
+	font-style: italic;
+}
+.about
+{
+	
+	padding-left: 0;
+}
+section
+{
+	box-sizing: border-box;
+	padding: 15px;
+}
+.container_12
+{
+	padding-left: 200px;
+}
+#image
+{
+	width: 1200px;
+	height: 480px;
+}
+.relatedsites
+{
+padding-left: 0;
+}
+
+.hero
+{
+	padding:60px;
+}
